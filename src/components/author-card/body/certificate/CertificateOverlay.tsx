@@ -1,5 +1,4 @@
-import { useDispatch, useSelector } from "react-redux"
-import { overlayActions } from "../../../../store/overlay-slice"
+import { useSelector } from "react-redux"
 import StoreType from "../../../../store/store-types"
 import Overlay from "../../../shared/Overlay"
 import Certificate from "./Certificate"
@@ -11,15 +10,8 @@ function CertificateOverlay() {
 
 	const visible = !!certificate.name
 
-	const dispatch = useDispatch()
-
-	const onclick = () => {
-		dispatch(overlayActions.hide())
-	}
-
 	const element = (
 		<Overlay
-			click={onclick}
 			children={
 				<Certificate
 					name={certificate.name}
