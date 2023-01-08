@@ -1,5 +1,6 @@
 import { Course } from "../../../models"
 import Badges from "./badges/Badges"
+import "./CourseRow.css"
 
 export interface CourseRowProps {
 	course: Course
@@ -11,7 +12,13 @@ function CourseRow(props: CourseRowProps) {
 	return (
 		<li className='list-group-item d-flex justify-content-between align-items-start'>
 			<div className='ms-2 me-auto'>
-				<div className='fw-bold'>{props.course.name}</div>
+				<a
+					target='_blank'
+					rel='noopener noreferrer'
+					href={props.course.address}
+					className='fw-bold course-row'>
+					{props.course.name}
+				</a>
 			</div>
 			<Badges
 				hours={hours}
