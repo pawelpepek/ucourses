@@ -4,22 +4,14 @@ function Flag(props: { language: Language }) {
 	const langText = `Courses in ${props.language.toString()}`
 
 	const polishFlag = (
-		<svg
-			xmlns='http://www.w3.org/2000/svg'
-			id='flag-icons-pl'
-			viewBox='0 0 640 480'>
-			<g>
-				<path fill='#fff' d='M640 480H0V0h640z' />
-				<path fill='#dc143c' d='M640 480H0V240h640z' />
-			</g>
-		</svg>
+		<g>
+			<path fill='#fff' d='M640 480H0V0h640z' />
+			<path fill='#dc143c' d='M640 480H0V240h640z' />
+		</g>
 	)
 
 	const engFlag = (
-		<svg
-			xmlns='http://www.w3.org/2000/svg'
-			id='flag-icons-gb'
-			viewBox='0 0 640 480'>
+		<>
 			<path fill='#012169' d='M0 0h640v480H0z' />
 			<path
 				fill='#FFF'
@@ -31,12 +23,17 @@ function Flag(props: { language: Language }) {
 			/>
 			<path fill='#FFF' d='M241 0v480h160V0H241zM0 160v160h640V160H0z' />
 			<path fill='#C8102E' d='M0 193v96h640v-96H0zM273 0v480h96V0h-96z' />
-		</svg>
+		</>
 	)
 
 	return (
 		<div className='flag'>
-			{props.language === Language.pln ? polishFlag : engFlag}
+			<svg
+				data-tip={langText}
+				xmlns='http://www.w3.org/2000/svg'
+				viewBox='0 0 640 480'>
+				{props.language === Language.pln ? polishFlag : engFlag}
+			</svg>
 		</div>
 	)
 }

@@ -1,6 +1,7 @@
 function HomeworkBadge(props: { address: string }) {
 	return (
 		<a
+			data-tip='Show homework'
 			target='_blank'
 			rel='noopener noreferrer'
 			href={props.address}
@@ -20,7 +21,6 @@ function HomeworkBadge(props: { address: string }) {
 				<path d='M9 7h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3' />
 				<path
 					d='M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3'
-
 					fill='#ffc107'
 				/>
 				<line x1='16' y1='5' x2='19' y2='8' />

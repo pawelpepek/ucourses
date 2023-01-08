@@ -17,6 +17,7 @@ function CerrtificateBadge(props: CerrtificateBadgeProps) {
 
 	return (
 		<div
+			data-tip='Show certificate'
 			onClick={certificateClick}
 			className='d-flex flex-row-reverse text-primary'>
 			<svg
