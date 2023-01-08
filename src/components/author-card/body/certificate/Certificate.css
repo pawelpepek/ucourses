@@ -2,6 +2,8 @@
 	object-fit: cover;
 	max-width: 75vw;
 	max-height: 75vh;
+	transition: max-width ease-out 0.4s;
+	transition: max-height ease-out 0.4s;
 }
 
 .certificate-hide {

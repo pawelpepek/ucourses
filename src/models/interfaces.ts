@@ -18,7 +18,7 @@ export interface Course {
 	subjects: SubjectTime[]
 	authors: Author[]
 	address: string
-	homevork?: ""
+	homework?: string
 }
 
 export interface Author {
@@ -28,4 +28,3 @@ export interface Author {
 	description: string
 	img: string
 }
-

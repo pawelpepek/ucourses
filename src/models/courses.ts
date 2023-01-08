@@ -164,6 +164,7 @@ export function getCourses(): Course[] {
 			completed: new Date("2022-10-08"),
 			address:
 				"https://www.udemy.com/course/c-net-entity-framework-core/learn/lecture/31941768",
+			homework:'https://github.com/pawelpepek/StackOverflowAPI'
 		},
 		{
 			id: 13,

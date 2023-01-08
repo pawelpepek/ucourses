@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux"
-import { overlayActions } from "../../../store/overlay-slice"
-import StoreType from "../../../store/store-types"
-import Overlay from "../../shared/Overlay"
+import { overlayActions } from "../../../../store/overlay-slice"
+import StoreType from "../../../../store/store-types"
+import Overlay from "../../../shared/Overlay"
 import Certificate from "./Certificate"
 
 function CertificateOverlay() {

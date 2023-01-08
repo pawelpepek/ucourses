@@ -1,5 +1,5 @@
 import { Course } from "../../../models"
-import CerrtificateBadge from "./CertificateBadge"
+import Badges from "./badges/Badges"
 
 export interface CourseRowProps {
 	course: Course
@@ -13,12 +13,11 @@ function CourseRow(props: CourseRowProps) {
 			<div className='ms-2 me-auto'>
 				<div className='fw-bold'>{props.course.name}</div>
 			</div>
-			<div>
-				<CerrtificateBadge
-					hours={hours}
-					certificate={props.course.certificate}
-					name={props.course.name}></CerrtificateBadge>
-			</div>
+			<Badges
+				hours={hours}
+				certificate={props.course.certificate}
+				name={props.course.name}
+				homework={props.course.homework}></Badges>
 		</li>
 	)
 }
