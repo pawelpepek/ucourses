@@ -41,7 +41,9 @@ function Certificate(props: CertificateProps) {
 						/>
 						<ButtonClose
 							click={onclick}
-							classAdded='button-certificate-close'></ButtonClose>
+							classAdded={`button-certificate-close ${
+								imgLoaded ? "" : "certificate-hide"
+							}`}></ButtonClose>
 					</div>
 				</div>
 			</div>

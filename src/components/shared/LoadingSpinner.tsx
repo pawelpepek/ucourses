@@ -1,3 +1,5 @@
+import "./LoadingSpinner.css"
+
 function LoaidingSpinner() {
 	return <div className='spinner'></div>
 }
