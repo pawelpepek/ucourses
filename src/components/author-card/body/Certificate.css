@@ -1,0 +1,35 @@
+.certificate {
+	object-fit: cover;
+	max-width: 75vw;
+	max-height: 75vh;
+}
+
+.certificate-hide {
+	max-width: 0px;
+	max-height: 0px;
+	opacity: 0%;
+}
+
+.spinner {
+	display: inline-block;
+	position: fixed;
+	z-index: 9999;
+}
+.spinner:after {
+	content: " ";
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 20px solid #0d6efd;
+	border-color: #0d6efd transparent #0d6efd transparent;
+	animation: spinner 1.2s linear infinite;
+}
+@keyframes spinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

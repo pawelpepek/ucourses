@@ -1,13 +1,18 @@
+import { Fragment } from "react"
 import "./App.css"
+import CertificateOverlay from "./components/author-card/body/CertificateOverlay"
 import CoursesContainer from "./components/author-card/CoursesContainer"
 
 function App() {
 	return (
-		<div className='container'>
-			<h1>Title</h1>
-			<br />
-			<CoursesContainer></CoursesContainer>
-		</div>
+		<Fragment>
+			<CertificateOverlay></CertificateOverlay>
+			<div className='container'>
+				<h1>Title</h1>
+				<br />
+				<CoursesContainer></CoursesContainer>
+			</div>
+		</Fragment>
 	)
 }
 
