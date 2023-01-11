@@ -7,11 +7,10 @@ export interface LinkedIconProps {
 }
 
 function LinkedIcon(props: LinkedIconProps) {
-    
 	return (
 		<a
 			target='_blank'
-			className={`pointer-icon ${props.addedClasses}`}
+			className={`pointer-icon ${props.addedClasses} text-dark ${classes.icon}`}
 			href={props.href}>
 			{props.children}
 		</a>

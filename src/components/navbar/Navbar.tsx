@@ -3,6 +3,7 @@ import StoreType from "../../store/store-types"
 import Avatar from "../shared/Avatar"
 import ContactPanel from "./ContactPanel"
 import CoursesStats from "./CoursesStats"
+import "./Navbar.css"
 
 export interface NavbarProps {}
 
@@ -16,7 +17,7 @@ function Navbar(props: NavbarProps) {
 	return (
 		<nav
 			className={`navbar navbar-expand-lg bg-body-tertiary border-bottom border-primary-subtle px-0 my-0 ${navbarClassSticky}`}>
-			<div className='container text-primary-emphasis '>
+			<div className='container text-dark'>
 				<div className='row w-100'>
 					<div className='col'>
 						<h1>Udemy Courses</h1>

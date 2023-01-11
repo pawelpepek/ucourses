@@ -9,7 +9,7 @@ export interface AuthorHeaderProps {
 function AuthorHeader(props: AuthorHeaderProps) {
 	const author = props.author
 	return (
-		<div className='card-header d-flex border-bottom text-primary-emphasis bg-primary-subtle border-primary-subtle'>
+		<div className='card-header d-flex border-bottom bg-primary-subtle border-primary-subtle text-dark'>
 			<div className='mt-auto mb-auto me-2'>
 				<div className='d-flex justify-content-between'>
 					<h5 className='card-title'>{author.name}</h5>

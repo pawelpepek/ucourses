@@ -16,7 +16,7 @@ function CourseRow(props: CourseRowProps) {
 					target='_blank'
 					rel='noopener noreferrer'
 					href={props.course.address}
-					className={`fw-bold ${classes['course-row']}`}>
+					className={classes["course-row"]}>
 					{props.course.name}
 				</a>
 			</div>
