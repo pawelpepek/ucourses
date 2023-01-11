@@ -1,5 +1,5 @@
 import { Author } from "../../../models"
-import "./AuthorHeader.css"
+import Avatar from "../../shared/Avatar"
 import Flag from "./Flag"
 
 export interface AuthorHeaderProps {
@@ -16,7 +16,7 @@ function AuthorHeader(props: AuthorHeaderProps) {
 				</div>
 				<h6 className='w-100'>{author.description}</h6>
 			</div>
-			<img src={author.img} alt={author.name} className='avatar ms-auto' />
+			<Avatar imgAddress={author.img} name={author.name}></Avatar>
 			<Flag language={author.language}></Flag>
 		</div>
 	)

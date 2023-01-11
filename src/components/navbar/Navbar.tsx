@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux"
 import StoreType from "../../store/store-types"
+import Avatar from "../shared/Avatar"
 import CoursesStats from "./CoursesStats"
 
 export interface NavbarProps {}
@@ -9,7 +10,7 @@ function Navbar(props: NavbarProps) {
 		(state: StoreType) => state.overlay.certificate
 	)
 
-	const navbarClassSticky=!certificate.name?"sticky-top":""
+	const navbarClassSticky = !certificate.name ? "sticky-top" : ""
 
 	return (
 		<nav
@@ -29,11 +30,9 @@ function Navbar(props: NavbarProps) {
 							</div>
 							<h5 className='w-100'>Web App Developer</h5>
 						</div>
-						<img
-							src='https://avatars.githubusercontent.com/u/67840037?v=4'
-							alt='Paweł Pępek'
-							className='avatar ms-auto'
-						/>
+						<Avatar
+							imgAddress='https://avatars.githubusercontent.com/u/67840037?v=4'
+							name='Paweł Pępek'></Avatar>
 					</div>
 				</div>
 			</div>
