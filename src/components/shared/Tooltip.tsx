@@ -5,14 +5,15 @@ const Tooltip: React.FC = () => {
 	return (
 		<ReactTooltip
 			type={"info"}
-			backgroundColor='#0D6EFD'
-			borderColor='#0D6EFD'
+			backgroundColor='#DEE2E6'
 			border={true}
-			textColor='white'
+			textColor='#0A58CA'
 			delayShow={200}
 			multiline={true}
 			data-effect='solid'
 			data-place='left'
+			effect='solid'
+			className="yourClass"
 		/>
 	)
 }

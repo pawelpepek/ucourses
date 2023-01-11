@@ -59,6 +59,8 @@ export function getCourses(): Course[] {
 			completed: new Date("2021-11-10"),
 			address:
 				"https://www.udemy.com/course/c-net-testy-jednostkowe-i-integracyjne/learn/lecture/29122824",
+			homework:
+				"https://www.dropbox.com/sh/8nlnsb0dkbwpyb4/AADnMhU1b6OP5Aw_pbx0QttBa?dl=0",
 		},
 		{
 			id: 5,
@@ -164,7 +166,7 @@ export function getCourses(): Course[] {
 			completed: new Date("2022-10-08"),
 			address:
 				"https://www.udemy.com/course/c-net-entity-framework-core/learn/lecture/31941768",
-			homework:'https://github.com/pawelpepek/StackOverflowAPI'
+			homework: "https://github.com/pawelpepek/StackOverflowAPI",
 		},
 		{
 			id: 13,

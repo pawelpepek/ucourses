@@ -5,3 +5,17 @@
 	font-size: 16px !important;
 	font-weight: 500;
 }
+.__react_component_tooltip.show {
+	opacity: 1 !important;
+}
+.yourClass {
+	border: 1px solid #0A58CA !important;
+}
+.yourClass.place-top::after,
+.yourClass.place-bottom::after {
+	border-color: #0A58CA transparent !important;
+}
+.yourClass.place-right::after,
+.yourClass.place-left::after {
+	border-color: transparent #0A58CA !important;
+}

@@ -1,7 +1,7 @@
 function HomeworkBadge(props: { address: string }) {
 	return (
 		<a
-			data-tip='Show homework'
+			data-tip='Show assignment'
 			target='_blank'
 			rel='noopener noreferrer'
 			href={props.address}
