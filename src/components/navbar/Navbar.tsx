@@ -1,10 +1,19 @@
+import { useSelector } from "react-redux"
+import StoreType from "../../store/store-types"
 import CoursesStats from "./CoursesStats"
 
 export interface NavbarProps {}
 
 function Navbar(props: NavbarProps) {
+	const certificate = useSelector(
+		(state: StoreType) => state.overlay.certificate
+	)
+
+	const navbarClassSticky=!certificate.name?"sticky-top":""
+
 	return (
-		<nav className='navbar navbar-expand-lg bg-body-tertiary sticky-top border-bottom border-primary-subtle px-0 my-0'>
+		<nav
+			className={`navbar navbar-expand-lg bg-body-tertiary border-bottom border-primary-subtle px-0 my-0 ${navbarClassSticky}`}>
 			<div className='container text-primary-emphasis '>
 				<div className='row w-100'>
 					<div className='col'>

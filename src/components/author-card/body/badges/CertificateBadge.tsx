@@ -21,7 +21,7 @@ function CerrtificateBadge(props: CerrtificateBadgeProps) {
 			data-tip='Show certificate'
 			onClick={certificateClick}
 			className='d-flex flex-row-reverse text-primary'>
-			<CertificateIcon></CertificateIcon>
+			<CertificateIcon classesAdd="pointer-icon"></CertificateIcon>
 		</div>
 	)
 }

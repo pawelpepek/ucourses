@@ -1,11 +1,4 @@
-.flag {
-	height: 12px;
-	width: 16px;
-	margin-left: auto;
-	position: absolute;
-	right: 10px;
-	top: 0px;
-}
+
 .avatar {
 	border-radius: 50%;
 	height: 90px;

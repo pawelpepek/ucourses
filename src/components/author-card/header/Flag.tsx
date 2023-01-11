@@ -1,4 +1,5 @@
 import { Language } from "../../../models"
+import classes from "./Flag.module.css"
 
 function Flag(props: { language: Language }) {
 	const langText = `Courses in ${props.language.toString()}`
@@ -27,7 +28,7 @@ function Flag(props: { language: Language }) {
 	)
 
 	return (
-		<div className='flag'>
+		<div className={classes.flag}>
 			<svg
 				data-tip={langText}
 				xmlns='http://www.w3.org/2000/svg'

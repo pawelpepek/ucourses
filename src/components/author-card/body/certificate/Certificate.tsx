@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux"
 import { overlayActions } from "../../../../store/overlay-slice"
 import ButtonClose from "../../../shared/ButtonClose"
 import LoaidingSpinner from "../../../shared/LoadingSpinner"
-import "./Certificate.css"
+import classes from "./Certificate.module.css"
 
 export interface CertificateProps {
 	address: string
@@ -24,7 +24,9 @@ function Certificate(props: CertificateProps) {
 	}
 
 	const getClassForImg = () => {
-		return `certificate ${imgLoaded ? "" : "certificate-hide"}`
+		return `${classes.certificate} ${
+			imgLoaded ? "" : classes["certificate-hide"]
+		}`
 	}
 
 	return (
@@ -32,7 +34,7 @@ function Certificate(props: CertificateProps) {
 			<div className='row h-100'>
 				<div className='col h-100 d-flex align-items-center justify-content-center'>
 					{!imgLoaded && <LoaidingSpinner></LoaidingSpinner>}
-					<div className='img-container'>
+					<div className={classes["img-container"]}>
 						<img
 							onLoad={onLoad}
 							className={getClassForImg()}
@@ -41,8 +43,8 @@ function Certificate(props: CertificateProps) {
 						/>
 						<ButtonClose
 							click={onclick}
-							classAdded={`button-certificate-close ${
-								imgLoaded ? "" : "certificate-hide"
+							classAdded={`${classes["button-certificate-close"]} ${
+								imgLoaded ? "" : classes["certificate-hide"]
 							}`}></ButtonClose>
 					</div>
 				</div>

@@ -1,11 +1,11 @@
-import "./ButtonClose.css"
+import classes from "./ButtonClose.module.css"
 
 function ButtonClose(props: { click: () => void; classAdded?: string }) {
 	return (
 		<button
 			onClick={props.click}
 			type='button'
-			className={`btn btn-outline-primary button-close p-0 border ${props.classAdded}`}>
+			className={`btn btn-outline-primary ${classes["button-close"]} p-0 border ${props.classAdded}`}>
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
 				width='32'

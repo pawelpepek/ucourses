@@ -1,6 +1,6 @@
 import { Course } from "../../../models"
 import Badges from "./badges/Badges"
-import "./CourseRow.css"
+import classes from "./CourseRow.module.css"
 
 export interface CourseRowProps {
 	course: Course
@@ -16,7 +16,7 @@ function CourseRow(props: CourseRowProps) {
 					target='_blank'
 					rel='noopener noreferrer'
 					href={props.course.address}
-					className='fw-bold course-row'>
+					className={`fw-bold ${classes['course-row']}`}>
 					{props.course.name}
 				</a>
 			</div>

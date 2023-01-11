@@ -1,3 +1,5 @@
+
+
 function HomeworkBadge(props: { address: string }) {
 	return (
 		<a
@@ -5,7 +7,7 @@ function HomeworkBadge(props: { address: string }) {
 			target='_blank'
 			rel='noopener noreferrer'
 			href={props.address}
-			className='fw-bold'>
+			className='fw-bold pointer-icon'>
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
 				className='icon icon-tabler icon-tabler-edit'
