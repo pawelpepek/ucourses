@@ -5,9 +5,7 @@ import ContactPanel from "./ContactPanel"
 import CoursesStats from "./CoursesStats"
 import "./Navbar.css"
 
-export interface NavbarProps {}
-
-function Navbar(props: NavbarProps) {
+function Navbar() {
 	const certificate = useSelector(
 		(state: StoreType) => state.overlay.certificate
 	)
