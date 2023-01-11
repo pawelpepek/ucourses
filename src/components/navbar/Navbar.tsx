@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux"
 import StoreType from "../../store/store-types"
 import Avatar from "../shared/Avatar"
+import ContactPanel from "./ContactPanel"
 import CoursesStats from "./CoursesStats"
 
 export interface NavbarProps {}
@@ -19,6 +20,7 @@ function Navbar(props: NavbarProps) {
 				<div className='row w-100'>
 					<div className='col'>
 						<h1>Udemy Courses</h1>
+						<ContactPanel></ContactPanel>
 					</div>
 					<div className='col d-flex text-center m-0 p-0'>
 						<CoursesStats></CoursesStats>
