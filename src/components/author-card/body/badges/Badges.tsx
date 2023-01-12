@@ -1,7 +1,7 @@
 import CerrtificateBadge from "./CertificateBadge"
 import HomeworkBadge from "./HomeworkBadge"
 import TimeBadge from "./TimeBadge"
-import './Badges.css'
+import "./Badges.css"
 
 export interface BadgesProps {
 	hours: number
@@ -12,7 +12,7 @@ export interface BadgesProps {
 
 function Badges(props: BadgesProps) {
 	return (
-		<div>
+		<div className='ms-1'>
 			<div className='d-flex flex-row-reverse'>
 				<TimeBadge hours={props.hours}></TimeBadge>
 			</div>

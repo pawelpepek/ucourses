@@ -12,27 +12,17 @@ function CoursesStats() {
 	const coursesCount = courses.length
 
 	return (
-		<table className='w-100 h-100 m-0 p-0 text-primary-emphasis'>
-			<tbody>
-				<tr>
-					<td className='w-50'>
-						<CertificateIcon
-							classesAdd={classes["icon-tabler-certificate"]}></CertificateIcon>
-					</td>
-					<td className='w-50'>
-						<ClockIcon classesAdd={classes["icon-tabler-clock"]}></ClockIcon>
-					</td>
-				</tr>
-				<tr>
-					<td className='w-50'>
-						<p className='h3 m-0 p-0 mt-auto'>{coursesCount}</p>
-					</td>
-					<td className='w-50'>
-						<p className='h3 m-0 p-0 mt-auto'>{hours}h</p>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div className={`w-100 h-100 d-flex justify-content-around pb-2`}>
+			<div className='d-flex flex-column'>
+				<CertificateIcon
+					classesAdd={classes["icon-tabler-certificate"]}></CertificateIcon>
+				<p className='h3 m-0 p-0 mt-auto'>{coursesCount}</p>
+			</div>
+			<div className='d-flex flex-column'>
+				<ClockIcon classesAdd={classes["icon-tabler-clock"]}></ClockIcon>
+				<p className='h3 m-0 p-0 mt-auto'>{hours}h</p>
+			</div>
+		</div>
 	)
 }
 
