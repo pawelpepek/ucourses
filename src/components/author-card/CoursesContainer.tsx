@@ -22,8 +22,10 @@ function CoursesContainer(props: CoursesContainerProps) {
 	}
 
 	return (
-		<div className='row row-cols-1 row-cols-xl-3 row-cols-md-2 g-4'>
-			{cards()}
+		<div className='container my-3'>
+			<div className='row row-cols-1 row-cols-xl-3 row-cols-md-2 g-4'>
+				{cards()}
+			</div>
 		</div>
 	)
 }

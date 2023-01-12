@@ -10,9 +10,7 @@ function App() {
 		<Fragment>
 			<CertificateOverlay></CertificateOverlay>
 			<Navbar></Navbar>
-			<div className='container my-3'>
-				<CoursesContainer></CoursesContainer>
-			</div>
+			<CoursesContainer></CoursesContainer>
 			<Tooltip></Tooltip>
 		</Fragment>
 	)
