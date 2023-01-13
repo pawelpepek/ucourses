@@ -2,7 +2,7 @@ import useCertificateLoaded from "../../../../hooks/use-certificate-loaded"
 import { Certificate } from "../../../../models/interfaces"
 import ButtonClose from "../../../shared/ButtonClose"
 import LoaidingSpinner from "../../../shared/LoadingSpinner"
-import classes from "./Certificate.module.css"
+import classes from "./CertificateImage.module.css"
 
 function CertificateImage(props: Certificate) {
 	const { imgLoaded, onLoad, hide } = useCertificateLoaded()

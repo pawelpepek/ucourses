@@ -1,7 +1,7 @@
 .certificate {
 	object-fit: cover;
-	max-width: 75vw;
-	max-height: 75vh;
+	max-width: 80vw;
+	max-height: 80vh;
 	transition: max-width ease-out 0.4s;
 	transition: max-height ease-out 0.4s;
 }
@@ -19,4 +19,11 @@
 .button-certificate-close {
 	right: 10px;
 	top: 10px;
+}
+
+@media screen and (max-width: 575px) {
+	.certificate {
+		max-width: 95vw;
+		max-height: 95vh;
+	}
 }
