@@ -1,27 +1,11 @@
-import { useState } from "react"
-import { useDispatch } from "react-redux"
-import { overlayActions } from "../../../../store/overlay-slice"
+import useCertificateLoaded from "../../../../hooks/use-certificate-loaded"
+import { Certificate } from "../../../../models/interfaces"
 import ButtonClose from "../../../shared/ButtonClose"
 import LoaidingSpinner from "../../../shared/LoadingSpinner"
 import classes from "./Certificate.module.css"
 
-export interface CertificateProps {
-	address: string
-	name: string
-}
-
-function Certificate(props: CertificateProps) {
-	const [imgLoaded, setLoaded] = useState(false)
-
-	const onLoad = () => {
-		setLoaded(true)
-	}
-
-	const dispatch = useDispatch()
-
-	const onclick = () => {
-		dispatch(overlayActions.hide())
-	}
+function CertificateImage(props: Certificate) {
+	const { imgLoaded, onLoad, hide } = useCertificateLoaded()
 
 	const getClassForImg = () => {
 		return `${classes.certificate} ${
@@ -42,7 +26,7 @@ function Certificate(props: CertificateProps) {
 							alt={props.name}
 						/>
 						<ButtonClose
-							click={onclick}
+							click={hide}
 							classAdded={`${classes["button-certificate-close"]} ${
 								imgLoaded ? "" : classes["certificate-hide"]
 							}`}></ButtonClose>
@@ -53,4 +37,4 @@ function Certificate(props: CertificateProps) {
 	)
 }
 
-export default Certificate
+export default CertificateImage

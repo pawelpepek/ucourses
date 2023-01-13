@@ -18,7 +18,7 @@ function Badges(props: BadgesProps) {
 			</div>
 			<div className='d-flex flex-row-reverse'>
 				<CerrtificateBadge
-					certificate={props.certificate}
+					address={props.certificate}
 					name={props.name}></CerrtificateBadge>
 				{!!props.homework && (
 					<HomeworkBadge address={props.homework}></HomeworkBadge>

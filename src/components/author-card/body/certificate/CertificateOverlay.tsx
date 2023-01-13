@@ -1,21 +1,18 @@
-import { useSelector } from "react-redux"
-import StoreType from "../../../../store/store-types"
+import useCertificate from "../../../../hooks/use-certificate"
 import Overlay from "../../../shared/Overlay"
-import Certificate from "./Certificate"
+import CertificateImage from "./CertificateImage"
 
 function CertificateOverlay() {
-	const certificate = useSelector(
-		(state: StoreType) => state.overlay.certificate
-	)
+	const certificate = useCertificate()
 
 	const visible = !!certificate.name
 
 	const element = (
 		<Overlay
 			children={
-				<Certificate
+				<CertificateImage
 					name={certificate.name}
-					address={certificate.address}></Certificate>
+					address={certificate.address}></CertificateImage>
 			}></Overlay>
 	)
 

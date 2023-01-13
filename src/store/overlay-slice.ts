@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit"
 
+
+
 const initialState = {
 	certificate: {
 		name: "",
@@ -11,7 +13,15 @@ const overlaySlice = createSlice({
 	name: "overlay",
 	initialState,
 	reducers: {
-		show(state, actions) {
+		show(
+			state,
+			actions: {
+				payload: {
+					name: string
+					address: string
+				}
+			}
+		) {
 			state.certificate = actions.payload
 		},
 		hide(state) {

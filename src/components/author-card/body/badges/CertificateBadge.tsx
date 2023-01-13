@@ -1,19 +1,12 @@
-import { useDispatch } from "react-redux"
-import { overlayActions } from "../../../../store/overlay-slice"
+import useCertificateShow from "../../../../hooks/use-certificate-show"
+import { Certificate } from "../../../../models/interfaces"
 import CertificateIcon from "../../../shared/icons/CertificateIcon"
 
-export interface CerrtificateBadgeProps {
-	certificate: string
-	name: string
-}
-
-function CerrtificateBadge(props: CerrtificateBadgeProps) {
-	const dispatch = useDispatch()
+function CerrtificateBadge(props: Certificate) {
+	const dispatch = useCertificateShow()
 
 	const certificateClick = () => {
-		dispatch(
-			overlayActions.show({ address: props.certificate, name: props.name })
-		)
+		dispatch(props)
 	}
 
 	return (
@@ -21,7 +14,7 @@ function CerrtificateBadge(props: CerrtificateBadgeProps) {
 			data-tip='Show certificate'
 			onClick={certificateClick}
 			className='d-flex flex-row-reverse text-primary'>
-			<CertificateIcon classesAdd="pointer-icon"></CertificateIcon>
+			<CertificateIcon classesAdd='pointer-icon'></CertificateIcon>
 		</div>
 	)
 }

@@ -1,15 +1,12 @@
-import { useSelector } from "react-redux"
+import useAuthorsCourses from "../../hooks/use-authors-courses"
 import { Course } from "../../models"
-import StoreType from "../../store/store-types"
 import AuthorCard from "./AuthorCard"
 import classes from "./CoursesContainer.module.css"
 
 export interface CoursesContainerProps {}
 
 function CoursesContainer(props: CoursesContainerProps) {
-	const authorsCourses = useSelector(
-		(store: StoreType) => store.data.authorsCourses
-	)
+	const authorsCourses = useAuthorsCourses()
 
 	const cardId = (id: number) => `card_${id}`
 

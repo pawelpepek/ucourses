@@ -28,3 +28,8 @@ export interface Author {
 	description: string
 	img: string
 }
+
+export interface Certificate {
+	name: string
+	address: string
+}

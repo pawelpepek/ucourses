@@ -1,16 +1,10 @@
-import { useSelector } from "react-redux"
-import StoreType from "../../store/store-types"
+import useStats from "../../hooks/use-stats"
 import CertificateIcon from "../shared/icons/CertificateIcon"
 import ClockIcon from "../shared/icons/ClockIcon"
 import classes from "./CoursesStats.module.css"
 
 function CoursesStats() {
-	const courses = useSelector((state: StoreType) => state.data.courses)
-	const hours = courses
-		.flatMap(c => c.subjects)
-		.map(s => s.hours)
-		.reduce((partialSum, x) => partialSum + x, 0)
-	const coursesCount = courses.length
+	const [hours, coursesCount] = useStats()
 
 	return (
 		<div className={`w-100 h-100 d-flex justify-content-around pb-2`}>
