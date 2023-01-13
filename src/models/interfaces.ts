@@ -14,7 +14,7 @@ export interface Course {
 	id: number
 	name: string
 	certificate: string
-	completed: Date
+	completed: string
 	subjects: SubjectTime[]
 	authors: Author[]
 	address: string

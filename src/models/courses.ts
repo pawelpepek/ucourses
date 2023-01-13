@@ -12,7 +12,7 @@ export function getCourses(): Course[] {
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-ca1d6c23-fa1e-4f1d-abe4-4793cfd5c487.jpg",
 			subjects: [{ subject: CourseSubject.Backend, hours: 6 }],
 			authors: [authors[0]],
-			completed: new Date("2021-10-04"),
+			completed: "2021-10-04",
 			address:
 				"https://www.udemy.com/course/solid-wzorce-projektowe-w-c-sharp-net-praktyczny-przewodnik/learn/lecture/26417146",
 		},
@@ -23,7 +23,7 @@ export function getCourses(): Course[] {
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-6c915b21-6118-408c-ba08-6dcaeb1a2bcb.jpg",
 			subjects: [{ subject: CourseSubject.Database, hours: 5.5 }],
 			authors: [authors[2]],
-			completed: new Date("2021-10-08"),
+			completed: "2021-10-08",
 			address:
 				"https://www.udemy.com/course/sql-server-zapytania-querying-exam-70-461/learn/lecture/5011066",
 		},
@@ -32,7 +32,7 @@ export function getCourses(): Course[] {
 			name: "GIT od podstaw dla każdego",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-eb160234-366c-4ece-afcd-9f5c2a59e96b.jpg",
-			completed: new Date("2021-10-14"),
+			completed: "2021-10-14",
 			subjects: [{ subject: CourseSubject.Other, hours: 5.5 }],
 			authors: [authors[4]],
 			address:
@@ -47,7 +47,7 @@ export function getCourses(): Course[] {
 			authors: [authors[0]],
 			address:
 				"https://www.udemy.com/course/praktyczny-kurs-aspnet-core-rest-web-api-od-podstaw/learn/lecture/24817116",
-			completed: new Date("2021-11-04"),
+			completed: "2021-11-04",
 		},
 		{
 			id: 4,
@@ -56,7 +56,7 @@ export function getCourses(): Course[] {
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-298a7e1a-9274-4e82-9500-e5a58cca9573.jpg",
 			subjects: [{ subject: CourseSubject.Backend, hours: 6 }],
 			authors: [authors[0]],
-			completed: new Date("2021-11-10"),
+			completed: "2021-11-10",
 			address:
 				"https://www.udemy.com/course/c-net-testy-jednostkowe-i-integracyjne/learn/lecture/29122824",
 			homework:
@@ -68,7 +68,7 @@ export function getCourses(): Course[] {
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-2b6d1076-566f-4563-b8ee-1ddc9e044974.jpg",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 10 }],
-			completed: new Date("2021-11-17"),
+			completed: "2021-11-17",
 			authors: [authors[3]],
 			address:
 				"https://www.udemy.com/course/od-zera-do-front-end-developera-cz1/learn/lecture/35268468",
@@ -82,7 +82,7 @@ export function getCourses(): Course[] {
 				{ subject: CourseSubject.Frontend, hours: 1.5 },
 				{ subject: CourseSubject.Backend, hours: 2 },
 			],
-			completed: new Date("2021-11-19"),
+			completed: "2021-11-19",
 			authors: [authors[5]],
 			address:
 				"https://www.udemy.com/course/single-page-application-with-aspnet-jquery-hands-on/learn/lecture/7427360",
@@ -92,7 +92,7 @@ export function getCourses(): Course[] {
 			name: "JavaScript - Jedyny Kurs, Którego Potrzebujesz!",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-35e50a52-8f7b-46f3-a90a-818aab573973.jpg",
-			completed: new Date("2021-11-23"),
+			completed: "2021-11-23",
 			authors: [authors[3]],
 			subjects: [{ subject: CourseSubject.Frontend, hours: 10.5 }],
 			address:
@@ -103,7 +103,7 @@ export function getCourses(): Course[] {
 			name: "React - The Complete Guide (incl Hooks, React Router, Redux)",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-51ad65cb-57bd-4e52-b7a1-22aabd83e648.jpg",
-			completed: new Date("2022-01-12"),
+			completed: "2022-01-12",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 48.5 }],
 			address:
 				"https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/25890212",
@@ -115,7 +115,7 @@ export function getCourses(): Course[] {
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-e25583bf-a544-43ec-82e3-07473848ee80.jpg",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 10 }],
-			completed: new Date("2022-04-06"),
+			completed: "2022-04-06",
 			authors: [authors[3]],
 			address:
 				"https://www.udemy.com/course/od-zera-do-front-end-developera-cz2/learn/lecture/35268558",
@@ -126,7 +126,7 @@ export function getCourses(): Course[] {
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-469199bb-d7dd-433f-96d9-aeb0a0835b8d.jpg",
 			subjects: [{ subject: CourseSubject.Backend, hours: 3.5 }],
-			completed: new Date("2022-05-06"),
+			completed: "2022-05-06",
 			authors: [authors[6]],
 			address:
 				"https://www.udemy.com/course/csharp-memory-tricks-learn-how-to-master-the-garbage-collector/learn/lecture/16167783",
@@ -136,7 +136,7 @@ export function getCourses(): Course[] {
 			name: "RegEx - Wyrażenia Regularne od A do Z",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-d1b518b2-8c28-4b55-9f8a-da3466925ba4.jpg",
-			completed: new Date("2022-07-22"),
+			completed: "2022-07-22",
 			subjects: [
 				{ subject: CourseSubject.Other, hours: 3 },
 				{ subject: CourseSubject.Backend, hours: 1 },
@@ -150,7 +150,7 @@ export function getCourses(): Course[] {
 			name: "Angular - The Complete Guide (2022 Edition)",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-59de10b1-c6f2-4b48-985e-7d7489ff5372.jpg",
-			completed: new Date("2022-08-09"),
+			completed: "2022-08-09",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 34.5 }],
 			address:
 				"https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656182",
@@ -163,7 +163,7 @@ export function getCourses(): Course[] {
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-50c36c46-4ae4-4303-9475-a09108faa1d6.jpg",
 			subjects: [{ subject: CourseSubject.Backend, hours: 8.5 }],
 			authors: [authors[0]],
-			completed: new Date("2022-10-08"),
+			completed: "2022-10-08",
 			address:
 				"https://www.udemy.com/course/c-net-entity-framework-core/learn/lecture/31941768",
 			homework: "https://github.com/pawelpepek/StackOverflowAPI",
@@ -175,7 +175,7 @@ export function getCourses(): Course[] {
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-f5cb1d0f-4860-403e-a7ea-3059f0643651.jpg",
 			subjects: [{ subject: CourseSubject.Database, hours: 6.5 }],
 			authors: [authors[2]],
-			completed: new Date("2022-11-28"),
+			completed: "2022-11-28",
 			address:
 				"https://www.udemy.com/course/sql-dla-poczatkujacych-postgresql-z-podrecznikiem-pdf/learn/lecture/23183944",
 		},
@@ -184,7 +184,7 @@ export function getCourses(): Course[] {
 			name: "Typescript: The Complete Developer's Guide",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-3c981a95-9746-4b1d-b4d7-7e3fa6ff772b.jpg",
-			completed: new Date("2022-12-28"),
+			completed: "2022-12-28",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 24.5 }],
 			address:
 				"https://www.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/16694294",
@@ -197,7 +197,7 @@ export function getCourses(): Course[] {
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-f5cb1d0f-4860-403e-a7ea-3059f0643651.jpg",
 			subjects: [{ subject: CourseSubject.Database, hours: 5 }],
 			authors: [authors[2]],
-			completed: new Date("2023-01-03"),
+			completed: "2023-01-03",
 			address:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-4e63823b-0387-48de-a2f1-599069d6323b.jpg",
 		},
