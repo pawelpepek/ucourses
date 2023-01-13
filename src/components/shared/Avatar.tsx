@@ -7,7 +7,11 @@ export interface AvatarProps {
 
 function Avatar(props: AvatarProps) {
 	return (
-		<img src={props.imgAddress} alt={props.name} className={`ms-auto ${classes.avatar}`}/>
+		<img
+			src={props.imgAddress}
+			alt={`${props.name} avatar`}
+			className={`ms-auto ${classes.avatar}`}
+		/>
 	)
 }
 
