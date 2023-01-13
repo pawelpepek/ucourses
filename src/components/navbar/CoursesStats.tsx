@@ -1,10 +1,11 @@
-import { CoursesCollection } from "../../models/CoursesCollection"
+import { useSelector } from "react-redux"
+import StoreType from "../../store/store-types"
 import CertificateIcon from "../shared/icons/CertificateIcon"
 import ClockIcon from "../shared/icons/ClockIcon"
 import classes from "./CoursesStats.module.css"
 
 function CoursesStats() {
-	const courses = CoursesCollection.instance.courses
+	const courses = useSelector((state: StoreType) => state.data.courses)
 	const hours = courses
 		.flatMap(c => c.subjects)
 		.map(s => s.hours)

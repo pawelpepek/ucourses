@@ -1,10 +1,16 @@
+import { useSelector } from "react-redux"
 import { Course } from "../../models"
-import { CoursesCollection } from "../../models/CoursesCollection"
+import StoreType from "../../store/store-types"
 import AuthorCard from "./AuthorCard"
+import classes from "./CoursesContainer.module.css"
 
 export interface CoursesContainerProps {}
 
 function CoursesContainer(props: CoursesContainerProps) {
+	const authorsCourses = useSelector(
+		(store: StoreType) => store.data.authorsCourses
+	)
+
 	const cardId = (id: number) => `card_${id}`
 
 	const cardCol = (courses: Course[]) => {
@@ -16,13 +22,11 @@ function CoursesContainer(props: CoursesContainerProps) {
 	}
 
 	const cards = () => {
-		return CoursesCollection.instance.authorsCourses.map(ac =>
-			cardCol(ac.courses)
-		)
+		return authorsCourses.map(ac => cardCol(ac.courses))
 	}
 
 	return (
-		<div className='container my-3'>
+		<div className={`container my-3 ${classes.courses}`}>
 			<div className='row row-cols-1 row-cols-xl-3 row-cols-md-2 g-4'>
 				{cards()}
 			</div>
