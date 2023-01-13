@@ -21,7 +21,9 @@ function Badges(props: BadgesProps) {
 					address={props.certificate}
 					name={props.name}></CertificateBadge>
 				{!!props.homework && (
-					<HomeworkBadge address={props.homework}></HomeworkBadge>
+					<HomeworkBadge
+						address={props.homework}
+						name={props.name}></HomeworkBadge>
 				)}
 			</div>
 		</div>

@@ -1,11 +1,10 @@
-
-
-function HomeworkBadge(props: { address: string }) {
+function HomeworkBadge(props: { address: string; name: string }) {
 	return (
 		<a
 			data-tip='Show assignment'
 			target='_blank'
 			rel='noopener noreferrer'
+			aria-label={`Display assigment for ${props.name}`}
 			href={props.address}
 			className='fw-bold pointer-icon'>
 			<svg
