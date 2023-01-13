@@ -38,10 +38,22 @@ function ContactPanel() {
 					</svg>
 				</LinkedIcon>
 			</div>
-			<div className='d-none d-print-block'>
-				<p className='py-0 my-0'>pawel.pepek@gmail.com</p>
-				<p className='py-0 my-0'>https://github.com/pawelpepek</p>
-				<p className='py-0 my-0'>https://graniowki.web.app</p>
+			<div className='d-none d-print-flex flex-column'>
+				<a
+					className='py-0 my-0 text-decoration-none text-dark'
+					href='pawel.pepek@gmail.com'>
+					pawel.pepek@gmail.com
+				</a>
+				<a
+					className='py-0 my-0 text-decoration-none text-dark'
+					href='https://github.com/pawelpepek'>
+					https://github.com/pawelpepek
+				</a>
+				<a
+					className='py-0 my-0 text-decoration-none text-dark'
+					href='https://graniowki.web.app'>
+					https://graniowki.web.app
+				</a>
 			</div>
 		</>
 	)
