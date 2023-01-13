@@ -13,7 +13,7 @@ const Tooltip: React.FC = () => {
 			data-effect='solid'
 			data-place='left'
 			effect='solid'
-			className='yourClass'
+			className='tooltip d-print-none d-sm-none d-md-block'
 		/>
 	)
 }

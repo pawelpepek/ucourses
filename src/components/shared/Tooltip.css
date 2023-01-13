@@ -8,14 +8,15 @@
 .__react_component_tooltip.show {
 	opacity: 1 !important;
 }
-.yourClass {
+.tooltip {
 	border: 1px solid black !important;
+	z-index: 2000 !important;
 }
-.yourClass.place-top::after,
-.yourClass.place-bottom::after {
+.tooltip.place-top::after,
+.tooltip.place-bottom::after {
 	border-color: black transparent !important;
 }
-.yourClass.place-right::after,
-.yourClass.place-left::after {
+.tooltip.place-right::after,
+.tooltip.place-left::after {
 	border-color: transparent black !important;
 }
