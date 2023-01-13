@@ -11,7 +11,6 @@ function CertificateBadge(props: Certificate) {
 
 	return (
 		<a
-			aria-label={`Display certificate for ${props.name}`}
 			data-tip='Show certificate'
 			onClick={certificateClick}
 			className='d-flex flex-row-reverse text-primary'>
