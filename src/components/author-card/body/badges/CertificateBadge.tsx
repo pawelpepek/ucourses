@@ -12,6 +12,7 @@ function CertificateBadge(props: Certificate) {
 
 	return (
 		<button
+			aria-label={`Certificate ${props.name}`}
 			data-tip='Show certificate'
 			onClick={certificateClick}
 			className={`d-flex flex-row-reverse text-primary border border-0 m-0 p-0 ${classes["certificate-button"]} d-print-none`}>
