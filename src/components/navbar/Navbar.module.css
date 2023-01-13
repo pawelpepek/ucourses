@@ -16,7 +16,10 @@
 	.position {
 		font-size: calc(1.275rem + 0.3vw);
 	}
-	.personal{
-		margin-top: 0!important;
+	.personal {
+		margin-top: 0 !important;
+	}
+	.navbar-bg {
+		position: relative;
 	}
 }
