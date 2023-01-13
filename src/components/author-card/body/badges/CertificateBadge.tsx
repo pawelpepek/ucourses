@@ -2,7 +2,7 @@ import useCertificateShow from "../../../../hooks/use-certificate-show"
 import { Certificate } from "../../../../models/interfaces"
 import CertificateIcon from "../../../shared/icons/CertificateIcon"
 
-function CerrtificateBadge(props: Certificate) {
+function CertificateBadge(props: Certificate) {
 	const dispatch = useCertificateShow()
 
 	const certificateClick = () => {
@@ -10,13 +10,13 @@ function CerrtificateBadge(props: Certificate) {
 	}
 
 	return (
-		<div
+		<a
 			data-tip='Show certificate'
 			onClick={certificateClick}
 			className='d-flex flex-row-reverse text-primary'>
 			<CertificateIcon classesAdd='pointer-icon'></CertificateIcon>
-		</div>
+		</a>
 	)
 }
 
-export default CerrtificateBadge
+export default CertificateBadge

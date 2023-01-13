@@ -1,4 +1,4 @@
-import CerrtificateBadge from "./CertificateBadge"
+import CertificateBadge from "./CertificateBadge"
 import HomeworkBadge from "./HomeworkBadge"
 import TimeBadge from "./TimeBadge"
 import "./Badges.css"
@@ -17,9 +17,9 @@ function Badges(props: BadgesProps) {
 				<TimeBadge hours={props.hours}></TimeBadge>
 			</div>
 			<div className='d-flex flex-row-reverse'>
-				<CerrtificateBadge
+				<CertificateBadge
 					address={props.certificate}
-					name={props.name}></CerrtificateBadge>
+					name={props.name}></CertificateBadge>
 				{!!props.homework && (
 					<HomeworkBadge address={props.homework}></HomeworkBadge>
 				)}
