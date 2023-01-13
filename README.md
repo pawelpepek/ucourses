@@ -12,6 +12,10 @@ Used [react-tooltip](https://www.npmjs.com/package/react-tooltip).
 
 Please visit this [website](https://udemycoursespp.web.app).
 
+## PageSpeed Insights
+
+[Test](https://pagespeed.web.dev/report?url=https%3A%2F%2Fudemycoursespp.web.app%2F&hl=pl&form_factor=mobile) result about 95% for mobile and 100% for dektop.
+
 ## License
 
 MIT [license](https://github.com/pawelpepek/ucourses/blob/main/LICENSE)
