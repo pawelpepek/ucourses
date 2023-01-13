@@ -6,3 +6,8 @@
 	right: 10px;
 	top: 0px;
 }
+@media print {
+	.flag {
+		display: none;
+	}
+}

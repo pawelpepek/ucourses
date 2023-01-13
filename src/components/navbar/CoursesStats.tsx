@@ -8,14 +8,14 @@ function CoursesStats() {
 
 	return (
 		<div className={`w-100 h-100 d-flex justify-content-around pb-2`}>
-			<div className='d-flex flex-column'>
+			<div className='d-flex flex-column justify-content-center'>
 				<CertificateIcon
 					classesAdd={classes["icon-tabler-certificate"]}></CertificateIcon>
-				<p className='h3 m-0 p-0 mt-auto'>{coursesCount}</p>
+				<p className={`h3 m-0 p-0 mt-auto ${classes.number}`}>{coursesCount}</p>
 			</div>
-			<div className='d-flex flex-column'>
+			<div className='d-flex flex-column justify-content-center'>
 				<ClockIcon classesAdd={classes["icon-tabler-clock"]}></ClockIcon>
-				<p className='h3 m-0 p-0 mt-auto'>{hours}h</p>
+				<p className={`h3 m-0 p-0 mt-auto ${classes.number}`}>{hours}h</p>
 			</div>
 		</div>
 	)
