@@ -6,7 +6,7 @@ function HomeworkBadge(props: { address: string; name: string }) {
 			rel='noopener noreferrer'
 			aria-label={`Display assigment for ${props.name}`}
 			href={props.address}
-			className='fw-bold pointer-icon'>
+			className='fw-bold pointer-icon d-print-none'>
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
 				className='icon icon-tabler icon-tabler-edit'
