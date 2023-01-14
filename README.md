@@ -6,7 +6,7 @@ Website with Udemy courses list which I completed.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Used [react-tooltip](https://www.npmjs.com/package/react-tooltip). 
+Was used [react-tooltip](https://www.npmjs.com/package/react-tooltip). 
 
 ## Firebase App Deployment
 
@@ -14,7 +14,7 @@ Please visit this [website](https://udemycoursespp.web.app).
 
 ## PageSpeed Insights
 
-[Test](https://pagespeed.web.dev/report?url=https%3A%2F%2Fudemycoursespp.web.app%2F&hl=pl&form_factor=mobile) result about 95% for mobile and 100% for dektop.
+[Test](https://pagespeed.web.dev/report?url=https%3A%2F%2Fudemycoursespp.web.app%2F&hl=pl&form_factor=mobile) result about 95% for mobile and 100% for desktop.
 
 ## License
 
