@@ -12,6 +12,7 @@ function LinkedIcon(props: LinkedIconProps) {
 		<a
 			target='_blank'
 			aria-label={props.ariaLabel}
+			data-tip={props.ariaLabel}
 			className={`pointer-icon ${props.addedClasses} text-dark ${classes.icon}`}
 			href={props.href}>
 			{props.children}
