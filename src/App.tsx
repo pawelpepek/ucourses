@@ -8,10 +8,10 @@ import Tooltip from "./components/shared/Tooltip"
 function App() {
 	return (
 		<Fragment>
-			<CertificateOverlay></CertificateOverlay>
 			<Navbar></Navbar>
 			<CoursesContainer></CoursesContainer>
 			<Tooltip></Tooltip>
+			<CertificateOverlay></CertificateOverlay>
 		</Fragment>
 	)
 }
