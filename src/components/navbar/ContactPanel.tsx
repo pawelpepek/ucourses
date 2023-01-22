@@ -16,13 +16,15 @@ function ContactPanel() {
 				<LinkedIcon
 					href='https://github.com/pawelpepek'
 					ariaLabel='Personal GitHub repository address'
+					tooltip='Personal GitHub repository'
 					addedClasses='ms-1'>
 					<GithubIcon></GithubIcon>
 				</LinkedIcon>
 				<LinkedIcon
 					href='https://graniowki.web.app'
 					addedClasses='ms-1'
-					ariaLabel='Graniówki website address'>
+					ariaLabel='Graniówki website address'
+					tooltip='Graniówki website'>
 					<MapIcon></MapIcon>
 				</LinkedIcon>
 				<LinkedIcon
