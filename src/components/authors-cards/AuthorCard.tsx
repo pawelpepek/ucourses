@@ -1,6 +1,6 @@
 import { Course } from "../../models"
-import AuthorHeader from "./header/AuthorHeader"
-import CoursesList from "./body/CoursesList"
+import AuthorHeader from "./card-header/AuthorHeader"
+import CoursesList from "./card-body/CoursesList"
 
 export interface AuthorCardProps {
 	courses: Course[]
