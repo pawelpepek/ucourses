@@ -14,7 +14,7 @@ export function getCourses(): Course[] {
 			authors: [authors[0]],
 			completed: "2021-10-04",
 			address:
-				"https://www.udemy.com/course/solid-wzorce-projektowe-w-c-sharp-net-praktyczny-przewodnik/learn/lecture/26417146",
+				"https://www.udemy.com/course/solid-wzorce-projektowe-w-c-sharp-net-praktyczny-przewodnik",
 		},
 		{
 			id: 1,
@@ -25,7 +25,7 @@ export function getCourses(): Course[] {
 			authors: [authors[2]],
 			completed: "2021-10-08",
 			address:
-				"https://www.udemy.com/course/sql-server-zapytania-querying-exam-70-461/learn/lecture/5011066",
+				"https://www.udemy.com/course/sql-server-zapytania-querying-exam-70-461",
 		},
 		{
 			id: 2,
@@ -35,8 +35,7 @@ export function getCourses(): Course[] {
 			completed: "2021-10-14",
 			subjects: [{ subject: CourseSubject.Other, hours: 5.5 }],
 			authors: [authors[4]],
-			address:
-				"https://www.udemy.com/course/git-od-podstaw-dla-kazdego/learn/lecture/34099898",
+			address: "https://www.udemy.com/course/git-od-podstaw-dla-kazdego",
 		},
 		{
 			id: 3,
@@ -46,7 +45,7 @@ export function getCourses(): Course[] {
 			subjects: [{ subject: CourseSubject.Backend, hours: 8.5 }],
 			authors: [authors[0]],
 			address:
-				"https://www.udemy.com/course/praktyczny-kurs-aspnet-core-rest-web-api-od-podstaw/learn/lecture/24817116",
+				"https://www.udemy.com/course/praktyczny-kurs-aspnet-core-rest-web-api-od-podstaw",
 			completed: "2021-11-04",
 		},
 		{
@@ -58,7 +57,7 @@ export function getCourses(): Course[] {
 			authors: [authors[0]],
 			completed: "2021-11-10",
 			address:
-				"https://www.udemy.com/course/c-net-testy-jednostkowe-i-integracyjne/learn/lecture/29122824",
+				"https://www.udemy.com/course/c-net-testy-jednostkowe-i-integracyjne",
 			homework:
 				"https://www.dropbox.com/sh/8nlnsb0dkbwpyb4/AADnMhU1b6OP5Aw_pbx0QttBa?dl=0",
 		},
@@ -71,7 +70,7 @@ export function getCourses(): Course[] {
 			completed: "2021-11-17",
 			authors: [authors[3]],
 			address:
-				"https://www.udemy.com/course/od-zera-do-front-end-developera-cz1/learn/lecture/35268468",
+				"https://www.udemy.com/course/od-zera-do-front-end-developera-cz1",
 		},
 		{
 			id: 6,
@@ -85,7 +84,7 @@ export function getCourses(): Course[] {
 			completed: "2021-11-19",
 			authors: [authors[5]],
 			address:
-				"https://www.udemy.com/course/single-page-application-with-aspnet-jquery-hands-on/learn/lecture/7427360",
+				"https://www.udemy.com/course/single-page-application-with-aspnet-jquery-hands-on",
 		},
 		{
 			id: 7,
@@ -96,7 +95,7 @@ export function getCourses(): Course[] {
 			authors: [authors[3]],
 			subjects: [{ subject: CourseSubject.Frontend, hours: 10.5 }],
 			address:
-				"https://www.udemy.com/course/javascript-jedyny-kurs-ktorego-potrzebujesz/learn/lecture/16359054",
+				"https://www.udemy.com/course/javascript-jedyny-kurs-ktorego-potrzebujesz",
 		},
 		{
 			id: 7,
@@ -106,7 +105,7 @@ export function getCourses(): Course[] {
 			completed: "2022-01-12",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 48.5 }],
 			address:
-				"https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/25890212",
+				"https://www.udemy.com/course/react-the-complete-guide-incl-redux",
 			authors: [authors[1]],
 		},
 		{
@@ -118,7 +117,7 @@ export function getCourses(): Course[] {
 			completed: "2022-04-06",
 			authors: [authors[3]],
 			address:
-				"https://www.udemy.com/course/od-zera-do-front-end-developera-cz2/learn/lecture/35268558",
+				"https://www.udemy.com/course/od-zera-do-front-end-developera-cz2",
 		},
 		{
 			id: 9,
@@ -129,7 +128,7 @@ export function getCourses(): Course[] {
 			completed: "2022-05-06",
 			authors: [authors[6]],
 			address:
-				"https://www.udemy.com/course/csharp-memory-tricks-learn-how-to-master-the-garbage-collector/learn/lecture/16167783",
+				"https://www.udemy.com/course/csharp-memory-tricks-learn-how-to-master-the-garbage-collector",
 		},
 		{
 			id: 10,
@@ -143,7 +142,7 @@ export function getCourses(): Course[] {
 			],
 			authors: [authors[4]],
 			address:
-				"https://www.udemy.com/course/regex-wyrazenia-regularne-od-a-do-z/learn/lecture/9541428",
+				"https://www.udemy.com/course/regex-wyrazenia-regularne-od-a-do-z",
 		},
 		{
 			id: 11,
@@ -152,8 +151,7 @@ export function getCourses(): Course[] {
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-59de10b1-c6f2-4b48-985e-7d7489ff5372.jpg",
 			completed: "2022-08-09",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 34.5 }],
-			address:
-				"https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656182",
+			address: "https://www.udemy.com/course/the-complete-guide-to-angular-2",
 			authors: [authors[1]],
 		},
 		{
@@ -164,8 +162,7 @@ export function getCourses(): Course[] {
 			subjects: [{ subject: CourseSubject.Backend, hours: 8.5 }],
 			authors: [authors[0]],
 			completed: "2022-10-08",
-			address:
-				"https://www.udemy.com/course/c-net-entity-framework-core/learn/lecture/31941768",
+			address: "https://www.udemy.com/course/c-net-entity-framework-core",
 			homework: "https://github.com/pawelpepek/StackOverflowAPI",
 		},
 		{
@@ -177,7 +174,7 @@ export function getCourses(): Course[] {
 			authors: [authors[2]],
 			completed: "2022-11-28",
 			address:
-				"https://www.udemy.com/course/sql-dla-poczatkujacych-postgresql-z-podrecznikiem-pdf/learn/lecture/23183944",
+				"https://www.udemy.com/course/sql-dla-poczatkujacych-postgresql-z-podrecznikiem-pdf",
 		},
 		{
 			id: 14,
@@ -187,7 +184,7 @@ export function getCourses(): Course[] {
 			completed: "2022-12-28",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 24.5 }],
 			address:
-				"https://www.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/16694294",
+				"https://www.udemy.com/course/typescript-the-complete-developers-guide",
 			authors: [authors[7]],
 		},
 		{
@@ -199,7 +196,18 @@ export function getCourses(): Course[] {
 			authors: [authors[2]],
 			completed: "2023-01-03",
 			address:
-				"https://udemy-certificate.s3.amazonaws.com/image/UC-4e63823b-0387-48de-a2f1-599069d6323b.jpg",
+				"https://www.udemy.com/course/sql-server-modyfikacja-danych-transakcje-oblsuga-bledow",
+		},
+		{
+			id: 16,
+			name: "PostgreSQL - Projektowanie baz danych - kurs z podręcznikiem",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-65eab257-909d-47af-abfc-0b01f7f7f3ed.jpg",
+			subjects: [{ subject: CourseSubject.Database, hours: 7.5 }],
+			authors: [authors[2]],
+			completed: "2023-02-09",
+			address:
+				"https://www.udemy.com/course/postgresql-projektowanie-baz-danych",
 		},
 	]
 }
