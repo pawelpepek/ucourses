@@ -22,7 +22,7 @@ export function getCourses(): Course[] {
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-6c915b21-6118-408c-ba08-6dcaeb1a2bcb.jpg",
 			subjects: [{ subject: CourseSubject.Database, hours: 5.5 }],
-			authors: [authors[2]],
+			authors: [authors[1]],
 			completed: "2021-10-08",
 			address:
 				"https://www.udemy.com/course/sql-server-zapytania-querying-exam-70-461",
@@ -34,7 +34,7 @@ export function getCourses(): Course[] {
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-eb160234-366c-4ece-afcd-9f5c2a59e96b.jpg",
 			completed: "2021-10-14",
 			subjects: [{ subject: CourseSubject.Other, hours: 5.5 }],
-			authors: [authors[4]],
+			authors: [authors[2]],
 			address: "https://www.udemy.com/course/git-od-podstaw-dla-kazdego",
 		},
 		{
@@ -106,7 +106,7 @@ export function getCourses(): Course[] {
 			subjects: [{ subject: CourseSubject.Frontend, hours: 48.5 }],
 			address:
 				"https://www.udemy.com/course/react-the-complete-guide-incl-redux",
-			authors: [authors[1]],
+			authors: [authors[4]],
 		},
 		{
 			id: 8,
@@ -140,7 +140,7 @@ export function getCourses(): Course[] {
 				{ subject: CourseSubject.Other, hours: 3 },
 				{ subject: CourseSubject.Backend, hours: 1 },
 			],
-			authors: [authors[4]],
+			authors: [authors[2]],
 			address:
 				"https://www.udemy.com/course/regex-wyrazenia-regularne-od-a-do-z",
 		},
@@ -152,7 +152,7 @@ export function getCourses(): Course[] {
 			completed: "2022-08-09",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 34.5 }],
 			address: "https://www.udemy.com/course/the-complete-guide-to-angular-2",
-			authors: [authors[1]],
+			authors: [authors[4]],
 		},
 		{
 			id: 12,
@@ -171,7 +171,7 @@ export function getCourses(): Course[] {
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-f5cb1d0f-4860-403e-a7ea-3059f0643651.jpg",
 			subjects: [{ subject: CourseSubject.Database, hours: 6.5 }],
-			authors: [authors[2]],
+			authors: [authors[1]],
 			completed: "2022-11-28",
 			address:
 				"https://www.udemy.com/course/sql-dla-poczatkujacych-postgresql-z-podrecznikiem-pdf",
@@ -191,9 +191,9 @@ export function getCourses(): Course[] {
 			id: 15,
 			name: "SQL Server - Modyfikacja danych, transakcje i błędy",
 			certificate:
-				"https://udemy-certificate.s3.amazonaws.com/image/UC-f5cb1d0f-4860-403e-a7ea-3059f0643651.jpg",
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-4e63823b-0387-48de-a2f1-599069d6323b.jpg",
 			subjects: [{ subject: CourseSubject.Database, hours: 5 }],
-			authors: [authors[2]],
+			authors: [authors[1]],
 			completed: "2023-01-03",
 			address:
 				"https://www.udemy.com/course/sql-server-modyfikacja-danych-transakcje-oblsuga-bledow",
@@ -204,10 +204,31 @@ export function getCourses(): Course[] {
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-65eab257-909d-47af-abfc-0b01f7f7f3ed.jpg",
 			subjects: [{ subject: CourseSubject.Database, hours: 7.5 }],
-			authors: [authors[2]],
+			authors: [authors[1]],
 			completed: "2023-02-09",
 			address:
 				"https://www.udemy.com/course/postgresql-projektowanie-baz-danych",
+		},
+		{
+			id: 17,
+			name: "Write Asynchronous C# Code With Tasks and PLINQ",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-d957311f-ca2b-45aa-8b62-8544df33be85.jpg",
+			subjects: [{ subject: CourseSubject.Backend, hours: 3 }],
+			completed: "2023-02-16",
+			authors: [authors[6]],
+			address:
+				"https://www.udemy.com/course/write-asynchronous-csharp-code-with-task-parallel-library-and-plinq/",
+		},
+		{
+			id: 18,
+			name: "React Native - The Practical Guide [2023]",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-f352ceed-865b-4125-acf2-4e017e97189c.jpg",
+			completed: "2023-02-23",
+			subjects: [{ subject: CourseSubject.Frontend, hours: 28.5 }],
+			address: "https://www.udemy.com/course/react-native-the-practical-guide",
+			authors: [authors[4]],
 		},
 	]
 }
@@ -223,17 +244,17 @@ export function getAuthors(): Author[] {
 		},
 		{
 			id: 1,
-			language: Language.eng,
-			name: "Maximilian Schwarzmüller",
-			description: "AWS certified, Professional Web Developer and Instructor",
-			img: "https://img-c.udemycdn.com/user/200_H/13952972_e853.jpg",
-		},
-		{
-			id: 2,
 			language: Language.pln,
 			name: "Rafał Mobilo",
 			description: "Microsoft Certified Trainer",
 			img: "https://img-c.udemycdn.com/user/200_H/12424254_5bd6_5.jpg",
+		},
+		{
+			id: 2,
+			language: Language.pln,
+			name: "Adrian Szuszkiewicz",
+			description: ".NET Software Developer and Code Mentor",
+			img: "https://img-c.udemycdn.com/user/200_H/6750162_8369_2.jpg",
 		},
 		{
 			id: 3,
@@ -244,10 +265,10 @@ export function getAuthors(): Author[] {
 		},
 		{
 			id: 4,
-			language: Language.pln,
-			name: "Adrian Szuszkiewicz",
-			description: ".NET Software Developer and Code Mentor",
-			img: "https://img-c.udemycdn.com/user/200_H/6750162_8369_2.jpg",
+			language: Language.eng,
+			name: "Maximilian Schwarzmüller",
+			description: "AWS certified, Professional Web Developer and Instructor",
+			img: "https://img-c.udemycdn.com/user/200_H/13952972_e853.jpg",
 		},
 		{
 			id: 5,
