@@ -98,7 +98,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/javascript-jedyny-kurs-ktorego-potrzebujesz",
 		},
 		{
-			id: 7,
+			id: 8,
 			name: "React - The Complete Guide (incl Hooks, React Router, Redux)",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-51ad65cb-57bd-4e52-b7a1-22aabd83e648.jpg",
@@ -109,7 +109,7 @@ export function getCourses(): Course[] {
 			authors: [authors[4]],
 		},
 		{
-			id: 8,
+			id: 9,
 			name: "Kurs Tworzenia Stron WWW cz. II - SASS, JS, Bootstrap",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-e25583bf-a544-43ec-82e3-07473848ee80.jpg",
@@ -120,7 +120,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/od-zera-do-front-end-developera-cz2",
 		},
 		{
-			id: 9,
+			id: 10,
 			name: "C# Memory Tricks: Learn How To Master The Garbage Collector",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-469199bb-d7dd-433f-96d9-aeb0a0835b8d.jpg",
@@ -131,7 +131,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/csharp-memory-tricks-learn-how-to-master-the-garbage-collector",
 		},
 		{
-			id: 10,
+			id: 11,
 			name: "RegEx - Wyrażenia Regularne od A do Z",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-d1b518b2-8c28-4b55-9f8a-da3466925ba4.jpg",
@@ -145,7 +145,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/regex-wyrazenia-regularne-od-a-do-z",
 		},
 		{
-			id: 11,
+			id: 12,
 			name: "Angular - The Complete Guide (2022 Edition)",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-59de10b1-c6f2-4b48-985e-7d7489ff5372.jpg",
@@ -155,7 +155,7 @@ export function getCourses(): Course[] {
 			authors: [authors[4]],
 		},
 		{
-			id: 12,
+			id: 13,
 			name: "C# .NET: Entity Framework (Core)+ praktyka",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-50c36c46-4ae4-4303-9475-a09108faa1d6.jpg",
@@ -166,7 +166,7 @@ export function getCourses(): Course[] {
 			homework: "https://github.com/pawelpepek/StackOverflowAPI",
 		},
 		{
-			id: 13,
+			id: 14,
 			name: "SQL dla początkujących - PostgreSQL (z podręcznikiem PDF)",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-f5cb1d0f-4860-403e-a7ea-3059f0643651.jpg",
@@ -177,7 +177,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/sql-dla-poczatkujacych-postgresql-z-podrecznikiem-pdf",
 		},
 		{
-			id: 14,
+			id: 15,
 			name: "Typescript: The Complete Developer's Guide",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-3c981a95-9746-4b1d-b4d7-7e3fa6ff772b.jpg",
@@ -188,7 +188,7 @@ export function getCourses(): Course[] {
 			authors: [authors[7]],
 		},
 		{
-			id: 15,
+			id: 16,
 			name: "SQL Server - Modyfikacja danych, transakcje i błędy",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-4e63823b-0387-48de-a2f1-599069d6323b.jpg",
@@ -199,7 +199,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/sql-server-modyfikacja-danych-transakcje-oblsuga-bledow",
 		},
 		{
-			id: 16,
+			id: 17,
 			name: "PostgreSQL - Projektowanie baz danych - kurs z podręcznikiem",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-65eab257-909d-47af-abfc-0b01f7f7f3ed.jpg",
@@ -210,7 +210,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/postgresql-projektowanie-baz-danych",
 		},
 		{
-			id: 17,
+			id: 18,
 			name: "Write Asynchronous C# Code With Tasks and PLINQ",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-d957311f-ca2b-45aa-8b62-8544df33be85.jpg",
@@ -221,13 +221,26 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/write-asynchronous-csharp-code-with-task-parallel-library-and-plinq/",
 		},
 		{
-			id: 18,
+			id: 19,
 			name: "React Native - The Practical Guide [2023]",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-f352ceed-865b-4125-acf2-4e017e97189c.jpg",
 			completed: "2023-02-23",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 28.5 }],
 			address: "https://www.udemy.com/course/react-native-the-practical-guide",
+			authors: [authors[4]],
+		},
+		{
+			id: 20,
+			name: "Clean Code",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-e2f8cbb1-6c9f-4cea-b7ea-6143eed69893.jpg",
+			completed: "2023-03-02",
+			subjects: [
+				{ subject: CourseSubject.Frontend, hours: 3 },
+				{ subject: CourseSubject.Backend, hours: 3.5 },
+			],
+			address: "https://www.udemy.com/course/writing-clean-code",
 			authors: [authors[4]],
 		},
 	]
