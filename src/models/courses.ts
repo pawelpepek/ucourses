@@ -243,6 +243,38 @@ export function getCourses(): Course[] {
 			address: "https://www.udemy.com/course/writing-clean-code",
 			authors: [authors[4]],
 		},
+		{
+			id: 21,
+			name: "SQL Server - programowanie, typy zaawansowane, XML",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-70eb2862-1fbd-492a-8d52-b407f4b70eba.jpg",
+			subjects: [{ subject: CourseSubject.Database, hours: 4.5 }],
+			authors: [authors[1]],
+			completed: "2023-03-14",
+			address:
+				"https://www.udemy.com/course/sql-server-programowanie-typy-zaawansowane-xml",
+		},
+		{
+			id: 22,
+			name: "Refactoring to Design Patterns by Example",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-6e7d225f-b556-4ba8-9ba0-282539398b09.jpg",
+			subjects: [{ subject: CourseSubject.Backend, hours: 4.5 }],
+			authors: [authors[8]],
+			completed: "2023-04-25",
+			address: "https://www.udemy.com/course/refactoring-to-patterns",
+		},
+		{
+			id: 23,
+			name: "Podstawy Scrum i Agile - Teoria, Praktyka, Certyfikacja",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-3a1411ae-d6d2-49c8-b484-ce912b765abe.jpg",
+			subjects: [{ subject: CourseSubject.Other, hours: 3 }],
+			authors: [authors[9], authors[10]],
+			completed: "2023-08-15",
+			address:
+				"https://www.udemy.com/course/scrum-podstawy-teoretyczne-praktyczne-certyfikacja/",
+		},
 	]
 }
 
@@ -303,6 +335,27 @@ export function getAuthors(): Author[] {
 			name: "Stephen Grider",
 			description: "Engineering Architect",
 			img: "https://img-c.udemycdn.com/user/200_H/5487312_0554.jpg",
+		},
+		{
+			id: 8,
+			language: Language.eng,
+			name: "Zoran Horvat",
+			description: "CEO and Principal Consultant at Coding Helmet s.p.r.l.",
+			img: "https://img-c.udemycdn.com/user/200_H/57626100_d58f.jpg",
+		},
+		{
+			id: 9,
+			language: Language.pln,
+			name: "Jarosław Łojko",
+			description: "PSM III, Scrum Master",
+			img: "https://img-c.udemycdn.com/user/200_H/11037280_75e6.jpg",
+		},
+		{
+			id: 10,
+			language: Language.pln,
+			name: "Paweł Kałkus",
+			description: "Professional Scrum Trainer @ Scrum.org, Agile Coach",
+			img: "https://img-c.udemycdn.com/user/200_H/7088354_47d5.jpg",
 		},
 	]
 }
