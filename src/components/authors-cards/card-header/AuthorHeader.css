@@ -1,0 +1,57 @@
+.card-header-next {
+	position: absolute;
+}
+
+.author-1 {
+	animation: author-1-animation 10s ease-in-out infinite;
+}
+
+.author-2 {
+	animation: author-2-animation 10s ease-in-out infinite;
+}
+
+@keyframes author-1-animation {
+	0% {
+		opacity: 100%;
+		display: block;
+	}
+	30% {
+		opacity: 100%;
+		display: block;
+	}
+	50% {
+		opacity: 0%;
+		display: none;
+	}
+	80% {
+		opacity: 0%;
+		display: none;
+	}
+	100% {
+		opacity: 100%;
+		display: block;
+	}
+}
+
+@keyframes author-2-animation {
+	0% {
+		opacity: 0%;
+		display: none;
+	}
+	30% {
+		opacity: 0%;
+		display: none;
+	}
+	50% {
+		opacity: 100%;
+		display: block;
+	}
+	80% {
+		opacity: 100%;
+		display: block;
+	}
+	100% {
+		opacity: 0%;
+		display: none;
+	}
+}

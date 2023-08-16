@@ -7,11 +7,11 @@ export interface AuthorCardProps {
 }
 
 function AuthorCard(props: AuthorCardProps) {
-	const author = props.courses[0].authors[0]
+	const authors = props.courses[0].authors
 
 	return (
 		<div className='card border border-primary-subtle h-100 w-100'>
-			<AuthorHeader author={author}></AuthorHeader>
+			<AuthorHeader authors={authors}></AuthorHeader>
 			<CoursesList courses={props.courses}></CoursesList>
 		</div>
 	)
