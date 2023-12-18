@@ -4,13 +4,17 @@ import classes from "./CourseRow.module.css"
 
 export interface CourseRowProps {
 	course: Course
+	enabled: boolean
 }
 
 function CourseRow(props: CourseRowProps) {
 	const hours = props.course.subjects.reduce((result, s) => result + s.hours, 0)
 
 	return (
-		<li className='list-group-item d-flex justify-content-between align-items-start'>
+		<li
+			className={`list-group-item d-flex justify-content-between align-items-start ${
+				classes["course-item"]
+			} ${!props.enabled && classes["course-row-disabled"]}`}>
 			<div className='ms-2 me-auto'>
 				<a
 					target='_blank'

@@ -3,6 +3,7 @@ import classes from "./Avatar.module.css"
 export interface AvatarProps {
 	name: string
 	imgAddress: string
+	className?: string
 }
 
 function Avatar(props: AvatarProps) {
@@ -10,7 +11,7 @@ function Avatar(props: AvatarProps) {
 		<img
 			src={props.imgAddress}
 			alt={`${props.name} avatar`}
-			className={`ms-auto ${classes.avatar}`}
+			className={`ms-auto ${classes.avatar} ${props.className}`}
 		/>
 	)
 }

@@ -3,8 +3,8 @@
 	width: 16px;
 	margin-left: auto;
 	position: absolute;
-	right: 10px;
-	top: 0px;
+	right: 9px;
+	top: -1px;
 }
 @media print {
 	.flag {

@@ -1,57 +1,74 @@
 .card-header-next {
 	position: absolute;
+	max-width: calc(100% - 27px);
+	width: calc(100% - 27px);
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
-.author-1 {
-	animation: author-1-animation 10s ease-in-out infinite;
+.author-visible {
+	opacity: 100%;
+	animation: author-visible-animation 1.5s ease-in-out;
 }
 
-.author-2 {
-	animation: author-2-animation 10s ease-in-out infinite;
+.author-visible-allways {
+	opacity: 100%;
 }
 
-@keyframes author-1-animation {
+.author-hidden {
+	opacity: 0%;
+}
+
+.author-new-hidden {
+	opacity: 0%;
+	animation: author-hidden-animation 1.5s ease-in-out;
+}
+
+.card-header {
+	transition: opacity 1.5s ease-in-out;
+	display: block;
+	max-height: 110px;
+	height: 110px;
+	padding: 0;
+}
+
+.author-desc {
+	max-height: 109px;
+	flex-wrap: nowrap;
+	height: 109px;
+}
+
+.author-desc h6 {
+	overflow: hidden;
+}
+
+.print-header {
+	display: none !important;
+}
+
+@keyframes author-visible-animation {
 	0% {
-		opacity: 100%;
-		display: block;
-	}
-	30% {
-		opacity: 100%;
-		display: block;
-	}
-	50% {
 		opacity: 0%;
-		display: none;
-	}
-	80% {
-		opacity: 0%;
-		display: none;
 	}
 	100% {
 		opacity: 100%;
-		display: block;
 	}
 }
 
-@keyframes author-2-animation {
+@keyframes author-hidden-animation {
 	0% {
-		opacity: 0%;
-		display: none;
-	}
-	30% {
-		opacity: 0%;
-		display: none;
-	}
-	50% {
 		opacity: 100%;
-		display: block;
-	}
-	80% {
-		opacity: 100%;
-		display: block;
 	}
 	100% {
 		opacity: 0%;
-		display: none;
+	}
+}
+
+@media print {
+	.no-print-author {
+		display: none !important;
+	}
+	.print-header {
+		display: flex !important;
 	}
 }
