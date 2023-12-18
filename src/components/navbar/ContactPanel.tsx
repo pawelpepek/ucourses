@@ -21,7 +21,7 @@ function ContactPanel() {
 					<GithubIcon></GithubIcon>
 				</LinkedIcon>
 				<LinkedIcon
-					href='https://graniowki.web.app'
+					href='https://graniowki.pl'
 					addedClasses='ms-1'
 					ariaLabel='Graniówki website address'
 					tooltip='Graniówki website'>
@@ -47,8 +47,8 @@ function ContactPanel() {
 				</a>
 				<a
 					className='py-0 my-0 text-decoration-none text-dark'
-					href='https://graniowki.web.app'>
-					https://graniowki.web.app
+					href='https://graniowki.pl'>
+					https://graniowki.pl
 				</a>
 			</div>
 		</>

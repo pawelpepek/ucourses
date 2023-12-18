@@ -106,7 +106,7 @@ export function getCourses(): Course[] {
 			subjects: [{ subject: CourseSubject.Frontend, hours: 48.5 }],
 			address:
 				"https://www.udemy.com/course/react-the-complete-guide-incl-redux",
-			authors: [authors[4]],
+			authors: [authors[15], authors[4]],
 		},
 		{
 			id: 9,
@@ -152,10 +152,21 @@ export function getCourses(): Course[] {
 			completed: "2022-08-09",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 34.5 }],
 			address: "https://www.udemy.com/course/the-complete-guide-to-angular-2",
-			authors: [authors[4]],
+			authors: [authors[15], authors[4]],
 		},
 		{
 			id: 13,
+			name: "C# .NET: Pytania z rozmów kwalifikacyjnych (junior/regular)",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-649e89dd-59e6-47e7-b3b4-b6b8e6581e32.jpg",
+			subjects: [{ subject: CourseSubject.Backend, hours: 7.5 }],
+			authors: [authors[0]],
+			completed: "2022-10-30",
+			address:
+				"https://www.udemy.com/course/c-net-rozmowa-kwalifikacyjna-pytania-junior-regular",
+		},
+		{
+			id: 14,
 			name: "C# .NET: Entity Framework (Core)+ praktyka",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-50c36c46-4ae4-4303-9475-a09108faa1d6.jpg",
@@ -166,7 +177,7 @@ export function getCourses(): Course[] {
 			homework: "https://github.com/pawelpepek/StackOverflowAPI",
 		},
 		{
-			id: 14,
+			id: 15,
 			name: "SQL dla początkujących - PostgreSQL (z podręcznikiem PDF)",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-f5cb1d0f-4860-403e-a7ea-3059f0643651.jpg",
@@ -177,7 +188,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/sql-dla-poczatkujacych-postgresql-z-podrecznikiem-pdf",
 		},
 		{
-			id: 15,
+			id: 16,
 			name: "Typescript: The Complete Developer's Guide",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-3c981a95-9746-4b1d-b4d7-7e3fa6ff772b.jpg",
@@ -188,7 +199,7 @@ export function getCourses(): Course[] {
 			authors: [authors[7]],
 		},
 		{
-			id: 16,
+			id: 17,
 			name: "SQL Server - Modyfikacja danych, transakcje i błędy",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-4e63823b-0387-48de-a2f1-599069d6323b.jpg",
@@ -199,7 +210,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/sql-server-modyfikacja-danych-transakcje-oblsuga-bledow",
 		},
 		{
-			id: 17,
+			id: 18,
 			name: "PostgreSQL - Projektowanie baz danych - kurs z podręcznikiem",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-65eab257-909d-47af-abfc-0b01f7f7f3ed.jpg",
@@ -210,7 +221,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/postgresql-projektowanie-baz-danych",
 		},
 		{
-			id: 18,
+			id: 19,
 			name: "Write Asynchronous C# Code With Tasks and PLINQ",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-d957311f-ca2b-45aa-8b62-8544df33be85.jpg",
@@ -221,17 +232,17 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/write-asynchronous-csharp-code-with-task-parallel-library-and-plinq/",
 		},
 		{
-			id: 19,
+			id: 20,
 			name: "React Native - The Practical Guide [2023]",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-f352ceed-865b-4125-acf2-4e017e97189c.jpg",
 			completed: "2023-02-23",
 			subjects: [{ subject: CourseSubject.Frontend, hours: 28.5 }],
 			address: "https://www.udemy.com/course/react-native-the-practical-guide",
-			authors: [authors[4]],
+			authors: [authors[15], authors[4]],
 		},
 		{
-			id: 20,
+			id: 21,
 			name: "Clean Code",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-e2f8cbb1-6c9f-4cea-b7ea-6143eed69893.jpg",
@@ -241,10 +252,10 @@ export function getCourses(): Course[] {
 				{ subject: CourseSubject.Backend, hours: 3.5 },
 			],
 			address: "https://www.udemy.com/course/writing-clean-code",
-			authors: [authors[4]],
+			authors: [authors[15], authors[4]],
 		},
 		{
-			id: 21,
+			id: 22,
 			name: "SQL Server - programowanie, typy zaawansowane, XML",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-70eb2862-1fbd-492a-8d52-b407f4b70eba.jpg",
@@ -255,7 +266,7 @@ export function getCourses(): Course[] {
 				"https://www.udemy.com/course/sql-server-programowanie-typy-zaawansowane-xml",
 		},
 		{
-			id: 22,
+			id: 23,
 			name: "Refactoring to Design Patterns by Example",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-6e7d225f-b556-4ba8-9ba0-282539398b09.jpg",
@@ -265,15 +276,84 @@ export function getCourses(): Course[] {
 			address: "https://www.udemy.com/course/refactoring-to-patterns",
 		},
 		{
-			id: 23,
+			id: 24,
+			name: "Visual Studio Mastery with C# - Double Your Productivity",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-a97d52a6-6893-4091-a475-c92086d2bbe1.jpg",
+			subjects: [{ subject: CourseSubject.Backend, hours: 1.5 }],
+			authors: [authors[9]],
+			completed: "2023-06-05",
+			address:
+				"https://www.udemy.com/course/visual-studio-mastery-productive-and-fast-coding",
+		},
+		{
+			id: 25,
+			name: "Microsoft Azure - praktyczy kurs dla developerów .NET",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-24cff830-856c-44b9-8c3a-860f43e67234.jpg",
+			subjects: [
+				{ subject: CourseSubject.Backend, hours: 5 },
+				{ subject: CourseSubject.Other, hours: 4.5 },
+			],
+			authors: [authors[0]],
+			completed: "2023-06-21",
+			address:
+				"https://www.udemy.com/course/microsoft-azure-praktyczy-kurs-dla-developerow-net",
+		},
+		{
+			id: 26,
+			name: "BASH & LINUX - wiersz poleceń od podstaw",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-9fffc9f7-7dbe-4573-8469-7fd7f6817157.jpg",
+			subjects: [{ subject: CourseSubject.Other, hours: 9.5 }],
+			authors: [authors[10]],
+			completed: "2023-07-26",
+			address: "https://www.udemy.com/course/bash-od-podstaw",
+		},
+		{
+			id: 27,
 			name: "Podstawy Scrum i Agile - Teoria, Praktyka, Certyfikacja",
 			certificate:
 				"https://udemy-certificate.s3.amazonaws.com/image/UC-3a1411ae-d6d2-49c8-b484-ce912b765abe.jpg",
 			subjects: [{ subject: CourseSubject.Other, hours: 3 }],
-			authors: [authors[9], authors[10]],
+			authors: [authors[11], authors[12]],
 			completed: "2023-08-15",
 			address:
-				"https://www.udemy.com/course/scrum-podstawy-teoretyczne-praktyczne-certyfikacja/",
+				"https://www.udemy.com/course/scrum-podstawy-teoretyczne-praktyczne-certyfikacja",
+		},
+		{
+			id: 28,
+			name: "Design Patterns in C# and .NET",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-d91f3c0e-4e98-4b42-9cc0-3844f82d6c18.jpg",
+			subjects: [{ subject: CourseSubject.Backend, hours: 20.5 }],
+			authors: [authors[13]],
+			completed: "2023-11-10",
+			address: "https://www.udemy.com/course/design-patterns-csharp-dotnet",
+			homework:
+				"https://github.com/pawelpepek/SmallProjects/tree/main/TreeTraversal",
+		},
+		{
+			id: 29,
+			name: "Kurs Jira od podstaw - zarządzanie projektami",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-4bad8fd9-da45-4f53-bb71-ccc77485a2e8.jpg",
+			subjects: [{ subject: CourseSubject.Other, hours: 4.5 }],
+			authors: [authors[14]],
+			completed: "2023-11-15",
+			address:
+				"https://www.udemy.com/course/kurs-jira-od-podstaw-zarzadzanie-projektami",
+		},
+		{
+			id: 30,
+			name: "ChatGPT, Midjourney, DALL-E 3 & APIs - The Complete Guide",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-3689abc1-2525-4f26-aef3-7a161ec3c8d1.jpg",
+			subjects: [{ subject: CourseSubject.Other, hours: 16 }],
+			authors: [authors[15], authors[4], authors[16]],
+			completed: "2023-12-13",
+			address:
+				"https://www.udemy.com/course/chatgpt-bard-bing-complete-guide-to-chatgpt-openai-apis",
 		},
 	]
 }
@@ -345,17 +425,61 @@ export function getAuthors(): Author[] {
 		},
 		{
 			id: 9,
+			language: Language.eng,
+			name: "Tod Vachev",
+			description:
+				"Best Selling Instructor 100,000+ Students, Robotics Engineer",
+			img: "https://img-c.udemycdn.com/user/200_H/10898022_c87c_3.jpg",
+		},
+		{
+			id: 10,
+			language: Language.pln,
+			name: "Mikołaj Głodziak",
+			description: "Systems Engineer, Linux engineer, IT monitoring engineer",
+			img: "https://img-c.udemycdn.com/user/200_H/142224638_0613_3.jpg",
+		},
+		{
+			id: 11,
 			language: Language.pln,
 			name: "Jarosław Łojko",
 			description: "PSM III, Scrum Master",
 			img: "https://img-c.udemycdn.com/user/200_H/11037280_75e6.jpg",
 		},
 		{
-			id: 10,
+			id: 12,
 			language: Language.pln,
 			name: "Paweł Kałkus",
 			description: "Professional Scrum Trainer @ Scrum.org, Agile Coach",
 			img: "https://img-c.udemycdn.com/user/200_H/7088354_47d5.jpg",
+		},
+		{
+			id: 13,
+			language: Language.eng,
+			name: "Dmitri Nesteruk",
+			description:
+				"Software/Hardware Engineering • Quant Finance • Algotrading",
+			img: "https://img-c.udemycdn.com/user/200_H/525118_7a52_4.jpg",
+		},
+		{
+			id: 14,
+			language: Language.pln,
+			name: "Rafał Podraza",
+			description: "Tester oprogramowania, web developer",
+			img: "https://img-c.udemycdn.com/user/200_H/37633654_b59a_4.jpg",
+		},
+		{
+			id: 15,
+			language: Language.eng,
+			name: "Academind by Maximilian Schwarzmüller",
+			description: "Online Education",
+			img: "https://img-c.udemycdn.com/user/200_H/31926668_94e7_6.jpg",
+		},
+		{
+			id: 16,
+			language: Language.eng,
+			name: "Manuel Lorenz",
+			description: "Professional Business Analyst and Instructor",
+			img: "https://img-c.udemycdn.com/user/200_H/30035496_b180_2.jpg",
 		},
 	]
 }
