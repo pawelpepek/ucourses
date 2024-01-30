@@ -355,6 +355,27 @@ export function getCourses(): Course[] {
 			address:
 				"https://www.udemy.com/course/chatgpt-bard-bing-complete-guide-to-chatgpt-openai-apis",
 		},
+		{
+			id: 31,
+			name: "Sieci komputerowe",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-787153bb-a97b-4aa8-ac16-69a51d4973ad.jpg",
+			subjects: [{ subject: CourseSubject.Other, hours: 4 }],
+			authors: [authors[17], authors[18]],
+			completed: "2023-12-21",
+			address: "https://www.udemy.com/course/sieci-komputerowe",
+		},
+		{
+			id: 32,
+			name: "Wstęp do algorytmów i struktur danych",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-191580e8-40e2-4114-bdcb-6b819eabfdf7.jpg",
+			subjects: [{ subject: CourseSubject.Other, hours: 10.5 }],
+			authors: [authors[17], authors[18]],
+			completed: "2024-01-30",
+			address:
+				"https://www.udemy.com/course/wstep-do-algorytmow-i-struktur-danych",
+		},
 	]
 }
 
@@ -480,6 +501,20 @@ export function getAuthors(): Author[] {
 			name: "Manuel Lorenz",
 			description: "Professional Business Analyst and Instructor",
 			img: "https://img-c.udemycdn.com/user/200_H/30035496_b180_2.jpg",
+		},
+		{
+			id: 17,
+			language: Language.pln,
+			name: "Mentorzy IT",
+			description: "Uczymy programować!",
+			img: "https://img-c.udemycdn.com/user/200_H/106358336_d551_2.jpg",
+		},
+		{
+			id: 18,
+			language: Language.pln,
+			name: "Wojciech Goledzinowski",
+			description: "Instruktor",
+			img: "https://img-c.udemycdn.com/user/200_H/125156992_7686_2.jpg",
 		},
 	]
 }

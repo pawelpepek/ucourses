@@ -1,6 +1,31 @@
+.max-container {
+	max-width: 3840px !important;
+}
+
 @media print {
 	.courses {
 		max-width: 100vw;
 		width: 100vw;
+	}
+}
+
+@media (min-width: 1600px) {
+	.row-cols-xxl2-4 > * {
+		flex: 0 0 auto;
+		width: 25%;
+	}
+}
+
+@media (min-width: 2240px) {
+	.row-cols-xxl3-5 > * {
+		flex: 0 0 auto;
+		width: 20%;
+	}
+}
+
+@media (min-width: 2560px) {
+	.row-cols-xxl4-6 > * {
+		flex: 0 0 auto;
+		width: 16.6666666667%;
 	}
 }
