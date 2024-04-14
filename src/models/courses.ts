@@ -376,6 +376,28 @@ export function getCourses(): Course[] {
 			address:
 				"https://www.udemy.com/course/wstep-do-algorytmow-i-struktur-danych",
 		},
+		{
+			id: 33,
+			name: "Bootstrap Od Podstaw - Stwórz 4 Wyjątkowe strony WWW!",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-72fe2bf8-7df7-4375-9ff2-f67fa4774bb7.jpg",
+			subjects: [{ subject: CourseSubject.Frontend, hours: 6.5 }],
+			authors: [authors[3]],
+			completed: "2024-02-01",
+			address:
+				"https://www.udemy.com/course/bootstrap-flexbox-od-podstaw-projekty",
+			homework: "https://github.com/pawelpepek/bootstrapExcercise",
+		},
+		{
+			id: 34,
+			name: "Git & GitHub - The Practical Guide",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-b42a9cd8-8bc7-4a67-881a-01ca85a05b2b.jpg",
+			subjects: [{ subject: CourseSubject.Other, hours: 10.5 }],
+			authors: [authors[15], authors[4], authors[16]],
+			completed: "2024-03-13",
+			address: "https://www.udemy.com/course/git-github-practical-guide",
+		},
 	]
 }
 
@@ -407,7 +429,7 @@ export function getAuthors(): Author[] {
 			language: Language.pln,
 			name: "Mateusz Maj",
 			description: "Freelancer & Front-End Developer",
-			img: "https://img-c.udemycdn.com/user/200_H/47980698_db20_4.jpg",
+			img: "https://img-c.udemycdn.com/user/200_H/47980698_db20_5.jpg",
 		},
 		{
 			id: 4,
@@ -515,6 +537,13 @@ export function getAuthors(): Author[] {
 			name: "Wojciech Goledzinowski",
 			description: "Instruktor",
 			img: "https://img-c.udemycdn.com/user/200_H/125156992_7686_2.jpg",
+		},
+		{
+			id: 19,
+			language: Language.eng,
+			name: "Dr. Sahand Ghavidel",
+			description: "Web Developer",
+			img: "https://img-c.udemycdn.com/user/200_H/65148228_08f1.jpg",
 		},
 	]
 }
