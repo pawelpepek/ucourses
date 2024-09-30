@@ -398,6 +398,16 @@ export function getCourses(): Course[] {
 			completed: "2024-03-13",
 			address: "https://www.udemy.com/course/git-github-practical-guide",
 		},
+		{
+			id: 35,
+			name: "React.js & Firebase Project - ReactJS 18, Firebase 9 Project",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-f3404aa7-a098-4a3c-8a21-08fdc4f68fb5.jpg",
+			subjects: [{ subject: CourseSubject.Frontend, hours: 17 }],
+			authors: [authors[19]],
+			completed: "2024-04-15",
+			address: "https://www.udemy.com/course/reactjs-firebase-project",
+		},
 	]
 }
 
