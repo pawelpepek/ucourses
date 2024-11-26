@@ -408,6 +408,30 @@ export function getCourses(): Course[] {
 			completed: "2024-04-15",
 			address: "https://www.udemy.com/course/reactjs-firebase-project",
 		},
+		{
+			id: 36,
+			name: "Angular Signals In Depth (Angular 18)",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-744b1f7b-9fc4-4844-8838-d2ea81c01510.jpg",
+			subjects: [{ subject: CourseSubject.Frontend, hours: 6.5 }],
+			authors: [authors[20]],
+			completed: "2024-10-21",
+			address: "https://www.udemy.com/course/angular-signals",
+		},
+		{
+			id: 37,
+			name: "Supabase in 90 Minutes: Auth, Storage, RLS, Realtime & More",
+			certificate:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-ca0a67c1-904f-4651-bda3-d9f9102d4a9c.jpg",
+			subjects: [
+				{ subject: CourseSubject.Frontend, hours: 0.5 },
+				{ subject: CourseSubject.Other, hours: 1 },
+			],
+			authors: [authors[21], authors[22]],
+			completed: "2024-10-30",
+			address:
+				"https://www.udemy.com/course/supabase-quickstart-auth-storage-rls-realtime-more",
+		},
 	]
 }
 
@@ -554,6 +578,27 @@ export function getAuthors(): Author[] {
 			name: "Dr. Sahand Ghavidel",
 			description: "Web Developer",
 			img: "https://img-c.udemycdn.com/user/200_H/65148228_08f1.jpg",
+		},
+		{
+			id: 20,
+			language: Language.eng,
+			name: "Angular University",
+			description: "Best Selling Angular Courses",
+			img: "https://img-c.udemycdn.com/user/200_H/13125810_51c9_4.jpg",
+		},
+		{
+			id: 21,
+			language: Language.eng,
+			name: "Harrison Sligting",
+			description: "Instructor at Udemy",
+			img: "https://img-c.udemycdn.com/user/200_H/76104524_26e9_2.jpg",
+		},
+		{
+			id: 22,
+			language: Language.eng,
+			name: "Canon Law",
+			description: "Software Engineer",
+			img: "https://img-c.udemycdn.com/user/200_H/16326246_05be.jpg",
 		},
 	]
 }
