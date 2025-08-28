@@ -30,7 +30,7 @@ function Navbar() {
 						className={`col-sm-4 col-md-6 col-lg-4 col d-flex flex-row justify-content-center ${classes["print-col"]}`}>
 						<div className={`m-auto ${classes.personal}`}>
 							<h3 className={`card-title ${classes.name}`}>Paweł Pępek</h3>
-							<h5 className={`w-100 ${classes.position}`}>Web App Developer</h5>
+							<h5 className={`w-100 ${classes.position}`}>Full-stack Developer</h5>
 						</div>
 						<Avatar
 							imgAddress='https://avatars.githubusercontent.com/u/67840037?v=4'
