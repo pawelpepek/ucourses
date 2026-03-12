@@ -1,7 +1,8 @@
+import { TOOLTIP_ID } from "../Tooltip"
 import classes from "./LinkedIcon.module.css"
 
 export interface LinkedIconProps {
-	children: JSX.Element
+	children: React.ReactElement
 	href: string
 	addedClasses?: string
 	ariaLabel: string
@@ -13,7 +14,8 @@ function LinkedIcon(props: LinkedIconProps) {
 		<a
 			target='_blank'
 			aria-label={props.ariaLabel}
-			data-tip={props.tooltip ?? props.ariaLabel}
+			data-tooltip-id={TOOLTIP_ID}
+			data-tooltip-content={props.tooltip ?? props.ariaLabel}
 			className={`pointer-icon ${props.addedClasses} text-dark ${classes.icon}`}
 			href={props.href}>
 			{props.children}

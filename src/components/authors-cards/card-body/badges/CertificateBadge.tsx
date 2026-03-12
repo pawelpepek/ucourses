@@ -1,3 +1,4 @@
+import { TOOLTIP_ID } from "../../../shared/Tooltip"
 import useCertificateShow from "../../../../hooks/use-certificate-show"
 import { Certificate } from "../../../../models/interfaces"
 import CertificateIcon from "../../../shared/icons/CertificateIcon"
@@ -13,7 +14,8 @@ function CertificateBadge(props: Certificate) {
 	return (
 		<button
 			aria-label={`Certificate ${props.name}`}
-			data-tip='Show certificate'
+			data-tooltip-id={TOOLTIP_ID}
+			data-tooltip-content='Show certificate'
 			onClick={certificateClick}
 			className={`d-flex flex-row-reverse text-primary border border-0 m-0 p-0 ${classes["certificate-button"]} d-print-none`}>
 			<CertificateIcon classesAdd='pointer-icon'></CertificateIcon>

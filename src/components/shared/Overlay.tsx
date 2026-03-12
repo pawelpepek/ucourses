@@ -1,7 +1,7 @@
 import classes from "./Overlay.module.css"
 
 type Props = {
-	children: JSX.Element
+	children: React.ReactElement
 }
 
 const Overlay: React.FC<Props> = ({ children }) => {

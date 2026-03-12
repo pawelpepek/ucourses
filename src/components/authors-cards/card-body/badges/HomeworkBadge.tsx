@@ -1,7 +1,10 @@
+import { TOOLTIP_ID } from "../../../shared/Tooltip"
+
 function HomeworkBadge(props: { address: string; name: string }) {
 	return (
 		<a
-			data-tip='Show assignment'
+			data-tooltip-id={TOOLTIP_ID}
+			data-tooltip-content='Show assignment'
 			target='_blank'
 			rel='noopener noreferrer'
 			aria-label={`Display assigment for ${props.name}`}

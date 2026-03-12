@@ -1,4 +1,5 @@
 import { Language } from "../../../models"
+import { TOOLTIP_ID } from "../../shared/Tooltip"
 import classes from "./Flag.module.css"
 
 function Flag(props: { language: Language }) {
@@ -30,7 +31,8 @@ function Flag(props: { language: Language }) {
 	return (
 		<div className={classes.flag}>
 			<svg
-				data-tip={langText}
+				data-tooltip-id={TOOLTIP_ID}
+				data-tooltip-content={langText}
 				xmlns='http://www.w3.org/2000/svg'
 				viewBox='0 0 640 480'>
 				{props.language === Language.pln ? polishFlag : engFlag}
