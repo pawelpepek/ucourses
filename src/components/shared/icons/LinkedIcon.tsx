@@ -1,4 +1,4 @@
-import { TOOLTIP_ID } from "../Tooltip"
+import { TOOLTIP_ID } from "@shared/Tooltip"
 import classes from "./LinkedIcon.module.css"
 
 export interface LinkedIconProps {

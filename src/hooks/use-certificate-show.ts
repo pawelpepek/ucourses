@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux"
-import { Certificate } from "../models/interfaces"
-import { overlayActions } from "../store/overlay-slice"
+import { Certificate } from "@models/interfaces"
+import { overlayActions } from "@store/overlay-slice"
 
 const useCertificateShow = () => {
 	const dispatch = useDispatch()

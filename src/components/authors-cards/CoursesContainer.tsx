@@ -1,5 +1,5 @@
-import useAuthorsCourses from "../../hooks/use-authors-courses"
-import { Course } from "../../models"
+import useAuthorsCourses from "@hooks/use-authors-courses"
+import { Course } from "@models"
 import AuthorCard from "./AuthorCard"
 import classes from "./CoursesContainer.module.css"
 

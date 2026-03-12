@@ -1,7 +1,7 @@
-import { TOOLTIP_ID } from "../../../shared/Tooltip"
-import useCertificateShow from "../../../../hooks/use-certificate-show"
-import { Certificate } from "../../../../models/interfaces"
-import CertificateIcon from "../../../shared/icons/CertificateIcon"
+import { TOOLTIP_ID } from "@shared/Tooltip"
+import useCertificateShow from "@hooks/use-certificate-show"
+import { Certificate } from "@models/interfaces"
+import CertificateIcon from "@shared/icons/CertificateIcon"
 import classes from "./CertificateBadge.module.css"
 
 function CertificateBadge(props: Certificate) {

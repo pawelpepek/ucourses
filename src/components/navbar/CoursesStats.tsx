@@ -1,6 +1,6 @@
-import useStats from "../../hooks/use-stats"
-import CertificateIcon from "../shared/icons/CertificateIcon"
-import ClockIcon from "../shared/icons/ClockIcon"
+import useStats from "@hooks/use-stats"
+import CertificateIcon from "@shared/icons/CertificateIcon"
+import ClockIcon from "@shared/icons/ClockIcon"
 import classes from "./CoursesStats.module.css"
 
 function CoursesStats() {

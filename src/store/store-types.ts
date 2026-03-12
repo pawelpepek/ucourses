@@ -1,4 +1,4 @@
-import { AuthorCourses, Course } from "../models"
+import { AuthorCourses, Course } from "@models"
 
 interface StoreType {
 	overlay: {

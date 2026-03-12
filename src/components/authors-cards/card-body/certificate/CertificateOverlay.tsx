@@ -1,5 +1,5 @@
-import useCertificate from "../../../../hooks/use-certificate"
-import Overlay from "../../../shared/Overlay"
+import useCertificate from "@hooks/use-certificate"
+import Overlay from "@shared/Overlay"
 import CertificateImage from "./CertificateImage"
 
 function CertificateOverlay() {

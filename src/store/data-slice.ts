@@ -1,6 +1,6 @@
-import { CoursesCollection } from "../models/CoursesCollection"
+import { CoursesCollection } from "@models/CoursesCollection"
 import { createSlice } from "@reduxjs/toolkit"
-import { AuthorCourses, Course } from "../models"
+import { AuthorCourses, Course } from "@models"
 
 const initialState: {
 	courses: Course[]

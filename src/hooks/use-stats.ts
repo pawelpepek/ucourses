@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux"
-import StoreType from "../store/store-types"
+import StoreType from "@store/store-types"
 
 const useStats = () => {
     const courses = useSelector((state: StoreType) => state.data.courses)

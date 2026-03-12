@@ -1,7 +1,7 @@
-import { Author, Course } from "../../models"
+import { Author, Course } from "@models"
 import AuthorHeader from "./card-header/AuthorHeader"
 import CoursesList from "./card-body/CoursesList"
-import useTimerSwitch from "../../hooks/use-timer-switch"
+import useTimerSwitch from "@hooks/use-timer-switch"
 
 export interface AuthorCardProps {
 	courses: Course[]

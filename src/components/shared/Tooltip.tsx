@@ -1,5 +1,5 @@
 import { Tooltip as ReactTooltip } from "react-tooltip"
-import useMobile from "../../hooks/use-mobile"
+import useMobile from "@hooks/use-mobile"
 import "./Tooltip.css"
 
 export const TOOLTIP_ID = "main-tooltip"

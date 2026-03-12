@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useDispatch } from "react-redux"
-import { overlayActions } from "../store/overlay-slice"
+import { overlayActions } from "@store/overlay-slice"
 
 const useCertificateLoaded = () => {
 	const [imgLoaded, setLoaded] = useState(false)

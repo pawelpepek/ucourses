@@ -1,4 +1,4 @@
-import LinkedIcon from "../shared/icons/LinkedIcon"
+import LinkedIcon from "@shared/icons/LinkedIcon"
 import CodeIcon from "./icons/CodeIcon"
 import GithubIcon from "./icons/GithubIcon"
 import MailIcon from "./icons/MailIcon"

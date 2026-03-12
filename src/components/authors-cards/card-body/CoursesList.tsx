@@ -1,4 +1,4 @@
-import { Course } from "../../../models"
+import { Course } from "@models"
 import CourseRow from "./CourseRow"
 
 export interface CoursesListProps {

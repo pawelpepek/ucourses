@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux"
-import StoreType from "../../store/store-types"
-import Avatar from "../shared/Avatar"
+import StoreType from "@store/store-types"
+import Avatar from "@shared/Avatar"
 import ContactPanel from "./ContactPanel"
 import CoursesStats from "./CoursesStats"
 import classes from "./Navbar.module.css"

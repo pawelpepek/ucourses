@@ -1,5 +1,5 @@
-import { Language } from "../../../models"
-import { TOOLTIP_ID } from "../../shared/Tooltip"
+import { Language } from "@models"
+import { TOOLTIP_ID } from "@shared/Tooltip"
 import classes from "./Flag.module.css"
 
 function Flag(props: { language: Language }) {

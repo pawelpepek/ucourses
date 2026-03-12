@@ -1,4 +1,4 @@
-import { Course } from "../../../models"
+import { Course } from "@models"
 import Badges from "./badges/Badges"
 import classes from "./CourseRow.module.css"
 

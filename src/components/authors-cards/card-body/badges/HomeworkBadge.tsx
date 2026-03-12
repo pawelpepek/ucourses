@@ -1,4 +1,4 @@
-import { TOOLTIP_ID } from "../../../shared/Tooltip"
+import { TOOLTIP_ID } from "@shared/Tooltip"
 
 function HomeworkBadge(props: { address: string; name: string }) {
 	return (

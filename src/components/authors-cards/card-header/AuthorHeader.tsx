@@ -1,5 +1,5 @@
-import { Author } from "../../../models"
-import Avatar from "../../shared/Avatar"
+import { Author } from "@models"
+import Avatar from "@shared/Avatar"
 import Flag from "./Flag"
 import "./AuthorHeader.css"
 
