@@ -393,6 +393,15 @@ export function getCourses(): Course[] {
 			completed: "2025-08-29",
 			address: "https://www.udemy.com/course/nginx-fundamentals",
 		},
+		{
+			id: 41,
+			name: "Codex - The Practical Guide",
+			certificate: "https://udemy-certificate.s3.amazonaws.com/image/UC-8b56cd44-1cbe-4fb3-9f9f-0ec15afdf234.jpg",
+			subjects: [{ subject: CourseSubject.Other, hours: 3 }],
+			authors: [authors[15], authors[4]],
+			completed: "2026-03-13",
+			address: "https://www.udemy.com/course/codex-the-practical-guide",
+		},
 	]
 }
 
